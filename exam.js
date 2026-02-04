@@ -334,12 +334,35 @@ document.addEventListener('DOMContentLoaded', () => {
     function activateAntiCheat() {
         document.addEventListener('contextmenu', preventDefault);
         document.addEventListener('visibilitychange', handleVisibility);
+
+        // Block Back Button
+        history.pushState(null, document.title, location.href);
+        window.addEventListener('popstate', handlePopState);
+
+        // Prevent accidental tab close/refresh (Standard Browser Confirmation)
+        window.addEventListener('beforeunload', handleBeforeUnload);
     }
+
     function deactivateAntiCheat() {
         document.removeEventListener('contextmenu', preventDefault);
         document.removeEventListener('visibilitychange', handleVisibility);
+        window.removeEventListener('popstate', handlePopState);
+        window.removeEventListener('beforeunload', handleBeforeUnload);
     }
+
     function preventDefault(e) { e.preventDefault(); }
+
+    function handlePopState(e) {
+        // Trap the user: push state again so they stay on the page
+        history.pushState(null, document.title, location.href);
+        showAlert('Akses Ditolak', 'Anda tidak diperbolehkan kembali ke halaman sebelumnya selama ujian berlangsung.', 'warning');
+    }
+
+    function handleBeforeUnload(e) {
+        // This triggers the browser's native "Leave site?" dialog
+        e.preventDefault();
+        e.returnValue = '';
+    }
 
     function handleVisibility() {
         if (document.hidden && state.isExamActive) {
