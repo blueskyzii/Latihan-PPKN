@@ -5,14 +5,16 @@
         "description": "Peran generasi muda dalam membangun demokrasi dan kepedulian sosial di era modern.",
         "file": "questions_ppkn_v1.json",
         "icon": "🇮🇩",
-        "duration": 60
+        "duration": 60,
+        "token": "MERDEKA"
     },
     {
         "id": "contoh",
-        "title": "Soal Contoh",
-        "description": "Tes kemampuan logika dan pengetahuan dunia.",
+        "title": "Under development",
+        "description": "Soal contoh",
         "file": "questions_contoh.json",
-        "icon": "😸",
-        "duration": 1
+        "icon": "🌍",
+        "duration": 45,
+        "token": "INDONESIA"
     }
 ]

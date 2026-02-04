@@ -51,7 +51,25 @@
             </main>
         </div>
     </div>
+    <!-- Token Modal -->
+    <div id="token-modal" class="modal-overlay hidden">
+        <div class="modal-box">
+            <div class="modal-icon warning">🔒</div>
+            <h3>Masukkan Token Ujian</h3>
+            <p>Silakan masukkan token yang diberikan oleh guru untuk memulai ujian ini.</p>
 
+            <input type="text" id="token-input" class="modern-input" placeholder="Ketik Token Disini..."
+                autocomplete="off">
+            <p id="token-error" class="error-text hidden">Token salah! Silakan coba lagi.</p>
+
+            <div class="modal-buttons">
+                <button id="cancel-token-btn" class="btn-secondary">Batal</button>
+                <button id="submit-token-btn" class="btn-primary">Mulai Ujian</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
     <script src="dashboard.js"></script>
 </body>
 
