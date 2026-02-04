@@ -1,0 +1,38 @@
+[
+    {
+        "id": "q1",
+        "question": "Planet manakah yang dikenal sebagai Planet Merah?",
+        "options": [
+            "Bumi",
+            "Mars",
+            "Jupiter",
+            "Venus"
+        ],
+        "answer": "Mars",
+        "hint": "Dinamai menurut dewa perang Romawi."
+    },
+    {
+        "id": "q2",
+        "question": "H2O adalah rumus kimia untuk...",
+        "options": [
+            "Air",
+            "Udara",
+            "Api",
+            "Tanah"
+        ],
+        "answer": "Air",
+        "hint": "Sangat penting untuk kehidupan, kita meminumnya."
+    },
+    {
+        "id": "q3",
+        "question": "Siapakah penemu bola lampu?",
+        "options": [
+            "Nikola Tesla",
+            "Thomas Edison",
+            "Albert Einstein",
+            "Isaac Newton"
+        ],
+        "answer": "Thomas Edison",
+        "hint": "Pendiri General Electric."
+    }
+]

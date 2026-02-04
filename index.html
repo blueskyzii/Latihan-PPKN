@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Ujian - CBT</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Dashboard View (Sidebar + Content) -->
+    <div id="dashboard-view" class="view active">
+        <div class="dashboard-layout">
+            <!-- Sidebar -->
+            <aside class="dashboard-sidebar">
+                <div class="user-profile">
+                    <div class="avatar">U</div>
+                    <div class="user-info">
+                        <h3>User</h3>
+                        <span>Peserta Ujian</span>
+                    </div>
+                </div>
+
+                <div class="sidebar-menu">
+                    <div class="menu-item active">Dashboard</div>
+                </div>
+
+                <div class="sidebar-footer">
+                    <div class="realtime-clock">
+                        <small>Waktu Server (WIB)</small>
+                        <div id="wib-clock">--:--:--</div>
+                    </div>
+                </div>
+            </aside>
+
+            <!-- Main Content -->
+            <main class="dashboard-content">
+                <header class="content-header">
+                    <h1>Selamat Datang</h1>
+                    <p>Silakan pilih ujian yang tersedia di bawah ini.</p>
+                </header>
+
+                <div class="quiz-grid" id="quiz-list">
+                    <div class="loader">Memuat data ujian...</div>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <script src="dashboard.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ujian Berlangsung - CBT</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Quiz View (Exambro Layout) -->
+    <div id="quiz-view" class="view active">
+        <header class="exam-header">
+            <div class="header-left">
+                <span id="exam-title-display">Memuat Ujian...</span>
+            </div>
+            <div class="header-right">
+                <div class="timer" id="timer">--:--:--</div>
+                <button id="toggle-palette-btn" class="icon-btn mobile-only">
+                    ☰
+                </button>
+            </div>
+        </header>
+
+        <div class="exam-layout">
+            <!-- Main Question Area -->
+            <main class="question-area">
+                <div class="question-card">
+                    <div class="q-header">
+                        <span class="q-badge">Soal No. <span id="q-number">1</span></span>
+                        <button id="hint-btn" class="hint-toggle-btn hidden" title="Lihat Petunjuk">
+                            💡 Petunjuk
+                        </button>
+                    </div>
+
+                    <div class="q-content" id="q-text">
+                        Loading...
+                    </div>
+
+                    <!-- Hint Box -->
+                    <div id="hint-box" class="hint-box hidden">
+                        <strong>Petunjuk:</strong> <span id="hint-text">...</span>
+                    </div>
+
+                    <div class="options-list" id="options-container">
+                        <!-- Options injected -->
+                    </div>
+                </div>
+
+                <!-- Navigation Bar (Bottom) -->
+                <div class="nav-bar">
+                    <button id="prev-btn" class="nav-btn secondary">
+                        &larr; Sebelumnya
+                    </button>
+                    <div class="nav-spacer"></div>
+                    <button id="next-btn" class="nav-btn primary">
+                        Berikutnya &rarr;
+                    </button>
+                    <button id="finish-btn" class="nav-btn danger hidden">
+                        Selesai
+                    </button>
+                </div>
+            </main>
+
+            <!-- Question Palette Sidebar -->
+            <aside class="palette-sidebar" id="palette-sidebar">
+                <div class="palette-header">
+                    <h3>Navigasi Soal</h3>
+                    <button id="close-palette-btn" class="close-btn mobile-only">&times;</button>
+                </div>
+                <div class="palette-grid" id="palette-grid">
+                    <!-- Number buttons injected -->
+                </div>
+                <div class="palette-legend">
+                    <div class="legend-item"><span class="dot filled"></span> Dijawab</div>
+                    <div class="legend-item"><span class="dot current"></span> Aktif</div>
+                    <div class="legend-item"><span class="dot"></span> Kosong</div>
+                </div>
+            </aside>
+            <div class="overlay" id="overlay"></div>
+        </div>
+    </div>
+
+    <!-- Result View -->
+    <div id="result-view" class="view hidden">
+        <div class="result-container">
+            <div class="card result-card">
+                <div class="result-icon">🏆</div>
+                <h2>Ujian Selesai</h2>
+                <p id="result-exam-title">Nama Ujian</p>
+
+                <div class="score-circle">
+                    <span id="score-final">0</span>
+                    <small>Nilai Akhir</small>
+                </div>
+
+                <div class="result-breakdown">
+                    <div class="rb-item correct">
+                        <span>Benar</span>
+                        <strong id="res-correct">0</strong>
+                    </div>
+                    <div class="rb-item wrong">
+                        <span>Salah</span>
+                        <strong id="res-wrong">0</strong>
+                    </div>
+                    <div class="rb-item total">
+                        <span>Total Soal</span>
+                        <strong id="res-total">0</strong>
+                    </div>
+                </div>
+
+                <div class="result-actions">
+                    <a href="index.html" class="btn-primary full-width"
+                        style="text-decoration:none; display:inline-block;">Kembali ke Dashboard</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Custom Modal -->
+    <div id="custom-modal" class="modal-overlay hidden">
+        <div class="modal-card">
+            <div class="modal-icon" id="modal-icon">⚠️</div>
+            <h3 id="modal-title">Judul</h3>
+            <p id="modal-msg">Pesan informasi.</p>
+            <div class="modal-actions" id="modal-actions">
+                <button class="btn-primary">OK</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="exam.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,18 @@
+[
+    {
+        "id": "ppkn-dasar",
+        "title": "PPKN Dasar",
+        "description": "Tes wawasan kebangsaan dan pengetahuan umum Indonesia.",
+        "file": "questions_ppkn_v1.json",
+        "icon": "🇮🇩",
+        "duration": 60
+    },
+    {
+        "id": "contoh",
+        "title": "Soal Contoh",
+        "description": "Tes kemampuan logika dan pengetahuan dunia.",
+        "file": "questions_contoh.json",
+        "icon": "😸",
+        "duration": 1
+    }
+]

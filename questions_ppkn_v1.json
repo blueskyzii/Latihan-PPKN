@@ -1,0 +1,652 @@
+[
+  {
+    "id": 1,
+    "question": "Partisipasi politik generasi muda di era digital meningkat melalui media sosial sebagai ruang diskusi publik. Agar partisipasi tersebut memperkuat demokrasi Pancasila (demokrasi yang berlandaskan nilai Pancasila), sikap yang paling tepat adalah …",
+    "options": [
+      "Aktif menyampaikan pendapat secara santun dan bertanggung jawab",
+      "Menolak seluruh kebijakan pemerintah tanpa pertimbangan",
+      "Menghindari partisipasi dalam kehidupan bermasyarakat",
+      "Mengikuti pendapat mayoritas secara membuta",
+      "Menyerahkan sepenuhnya urusan demokrasi kepada elite politik"
+    ],
+    "answer": "Aktif menyampaikan pendapat secara santun dan bertanggung jawab",
+    "hint": "Demokrasi Pancasila menekankan etika dan tanggung jawab."
+  },
+  {
+    "id": 2,
+    "question": "Istilah partisipasi politik berarti keterlibatan warga negara dalam proses politik. Contoh partisipasi politik nonformal (tidak melalui lembaga resmi negara) yang tepat adalah …",
+    "options": [
+      "Mengikuti diskusi publik dan kegiatan sosial",
+      "Tidak peduli terhadap isu politik",
+      "Memaksakan pendapat kepada orang lain",
+      "Menyebarkan informasi yang belum diverifikasi",
+      "Menolak seluruh perbedaan pendapat"
+    ],
+    "answer": "Mengikuti diskusi publik dan kegiatan sosial",
+    "hint": "Nonformal tidak selalu melalui pemilu atau lembaga negara."
+  },
+  {
+    "id": 3,
+    "question": "Di era digital, generasi muda sering dihadapkan pada disinformasi (informasi palsu atau menyesatkan). Dampak yang paling mungkin terjadi terhadap demokrasi jika disinformasi dibiarkan adalah …",
+    "options": [
+      "Meningkatnya kualitas partisipasi warga",
+      "Menurunnya kepercayaan publik terhadap demokrasi",
+      "Menguatnya persatuan nasional",
+      "Meningkatnya literasi politik masyarakat",
+      "Terciptanya stabilitas sosial"
+    ],
+    "answer": "Menurunnya kepercayaan publik terhadap demokrasi",
+    "hint": "Informasi palsu merusak kepercayaan."
+  },
+  {
+    "id": 4,
+    "question": "Kepedulian sosial adalah sikap peka dan mau bertindak terhadap permasalahan sosial di lingkungan sekitar. Perilaku yang mencerminkan kepedulian sosial adalah …",
+    "options": [
+      "Membantu kegiatan sosial di lingkungan sekitar",
+      "Bersikap acuh terhadap masalah masyarakat",
+      "Mengutamakan kepentingan pribadi",
+      "Menolak kerja sama dengan pihak lain",
+      "Menghindari interaksi sosial"
+    ],
+    "answer": "Membantu kegiatan sosial di lingkungan sekitar",
+    "hint": "Kepedulian ditunjukkan lewat tindakan nyata."
+  },
+  {
+    "id": 5,
+    "question": "Pemilu merupakan sarana pelaksanaan kedaulatan rakyat, yaitu kekuasaan tertinggi berada di tangan rakyat. Pernyataan yang paling tepat sesuai prinsip tersebut adalah …",
+    "options": [
+      "Rakyat berhak menentukan arah kebijakan melalui mekanisme demokratis",
+      "Pemerintah bebas bertindak tanpa kontrol rakyat",
+      "Kekuasaan sepenuhnya berada pada lembaga negara",
+      "Keputusan politik hanya ditentukan oleh elite",
+      "Rakyat tidak perlu terlibat dalam proses politik"
+    ],
+    "answer": "Rakyat berhak menentukan arah kebijakan melalui mekanisme demokratis",
+    "hint": "Kedaulatan rakyat menempatkan rakyat sebagai pemegang kekuasaan."
+  },
+  {
+    "id": 6,
+    "question": "Dalam masyarakat majemuk, toleransi berarti sikap menghargai perbedaan. Penerapan sikap toleransi dalam kehidupan demokratis ditunjukkan dengan …",
+    "options": [
+      "Menghormati perbedaan pendapat dan latar belakang",
+      "Memaksakan kehendak demi kepentingan kelompok",
+      "Menghindari interaksi dengan kelompok lain",
+      "Menolak budaya yang berbeda",
+      "Membatasi pergaulan pada kelompok sendiri"
+    ],
+    "answer": "Menghormati perbedaan pendapat dan latar belakang",
+    "hint": "Toleransi berkaitan dengan penghargaan terhadap perbedaan."
+  },
+  {
+    "id": 7,
+    "question": "Media sosial dapat menjadi sarana pendidikan politik bagi generasi muda. Agar media sosial berfungsi positif bagi demokrasi, penggunaan yang tepat adalah …",
+    "options": [
+      "Menyebarkan informasi politik yang telah diverifikasi",
+      "Menggunakan media sosial untuk provokasi",
+      "Menyebarkan ujaran kebencian",
+      "Mengikuti arus informasi tanpa berpikir kritis",
+      "Menghindari seluruh diskusi politik daring"
+    ],
+    "answer": "Menyebarkan informasi politik yang telah diverifikasi",
+    "hint": "Verifikasi penting untuk mencegah hoaks."
+  },
+  {
+    "id": 8,
+    "question": "Dalam kehidupan bermasyarakat, musyawarah adalah proses pengambilan keputusan bersama. Tujuan utama musyawarah dalam demokrasi adalah …",
+    "options": [
+      "Mencapai mufakat yang adil bagi semua pihak",
+      "Memenangkan pendapat kelompok mayoritas",
+      "Menekan pihak minoritas",
+      "Memperpanjang konflik",
+      "Menghindari pengambilan keputusan"
+    ],
+    "answer": "Mencapai mufakat yang adil bagi semua pihak",
+    "hint": "Musyawarah menekankan kebersamaan dan keadilan."
+  },
+  {
+    "id": 9,
+    "question": "Generasi muda memiliki peran strategis dalam menjaga persatuan bangsa. Sikap yang paling tepat untuk mencegah konflik akibat perbedaan pandangan politik adalah …",
+    "options": [
+      "Mengembangkan sikap saling menghargai dan dialog",
+      "Menghindari komunikasi dengan pihak lain",
+      "Memaksakan pendapat pribadi",
+      "Menyebarkan isu provokatif",
+      "Menolak perbedaan pendapat"
+    ],
+    "answer": "Mengembangkan sikap saling menghargai dan dialog",
+    "hint": "Dialog membantu meredam konflik."
+  },
+  {
+    "id": 10,
+    "question": "Literasi politik adalah kemampuan memahami isu dan proses politik. Manfaat utama literasi politik bagi generasi muda adalah …",
+    "options": [
+      "Mampu bersikap kritis dalam menyikapi kebijakan",
+      "Menjadi apatis terhadap politik",
+      "Mengikuti semua pendapat publik",
+      "Menolak keterlibatan politik",
+      "Menyerahkan keputusan pada orang lain"
+    ],
+    "answer": "Mampu bersikap kritis dalam menyikapi kebijakan",
+    "hint": "Literasi politik berkaitan dengan pemahaman dan sikap kritis."
+  },
+  {
+    "id": 11,
+    "question": "Penyebaran ujaran kebencian (ungkapan yang mengandung penghinaan atau permusuhan) di media sosial dapat mengancam demokrasi karena …",
+    "options": [
+      "Memicu konflik dan perpecahan sosial",
+      "Meningkatkan persatuan bangsa",
+      "Mendorong dialog sehat",
+      "Meningkatkan kepercayaan publik",
+      "Memperkuat solidaritas sosial"
+    ],
+    "answer": "Memicu konflik dan perpecahan sosial",
+    "hint": "Ujaran kebencian berdampak negatif pada persatuan."
+  },
+  {
+    "id": 12,
+    "question": "Kepedulian sosial generasi muda di era modern dapat diwujudkan melalui kegiatan …",
+    "options": [
+      "Relawan dan kegiatan kemanusiaan",
+      "Menghindari masalah sosial",
+      "Mementingkan kepentingan pribadi",
+      "Menutup diri dari lingkungan",
+      "Menolak kerja sama"
+    ],
+    "answer": "Relawan dan kegiatan kemanusiaan",
+    "hint": "Kegiatan sosial menunjukkan empati."
+  },
+  {
+    "id": 13,
+    "question": "Salah satu tantangan demokrasi di era digital adalah polarisasi opini, yaitu terbelahnya masyarakat ke dalam kubu ekstrem. Upaya yang dapat dilakukan untuk mengurangi polarisasi adalah …",
+    "options": [
+      "Mendorong dialog dan pemahaman lintas pandangan",
+      "Membatasi kebebasan berpendapat",
+      "Menguatkan kelompok sendiri",
+      "Menyebarkan isu sensitif",
+      "Menghindari komunikasi"
+    ],
+    "answer": "Mendorong dialog dan pemahaman lintas pandangan",
+    "hint": "Dialog membantu menjembatani perbedaan."
+  },
+  {
+    "id": 14,
+    "question": "Demokrasi Pancasila menempatkan musyawarah sebagai prinsip penting. Hal ini menunjukkan bahwa pengambilan keputusan harus …",
+    "options": [
+      "Mengutamakan kepentingan bersama",
+      "Didominasi kelompok tertentu",
+      "Mengabaikan suara minoritas",
+      "Bersifat otoriter",
+      "Dilakukan sepihak"
+    ],
+    "answer": "Mengutamakan kepentingan bersama",
+    "hint": "Musyawarah berorientasi pada kepentingan bersama."
+  },
+  {
+    "id": 15,
+    "question": "Generasi muda sebagai agen perubahan diharapkan mampu berperan aktif dalam demokrasi. Peran tersebut dapat diwujudkan dengan …",
+    "options": [
+      "Berpartisipasi aktif dan bertanggung jawab",
+      "Menjauh dari kehidupan sosial",
+      "Bersikap apatis terhadap politik",
+      "Menolak perbedaan pendapat",
+      "Mengikuti arus tanpa berpikir"
+    ],
+    "answer": "Berpartisipasi aktif dan bertanggung jawab",
+    "hint": "Agen perubahan berperan aktif."
+  },
+  {
+    "id": 16,
+    "question": "Dalam konteks kepedulian sosial, sikap empati berarti …",
+    "options": [
+      "Mampu memahami dan merasakan kondisi orang lain",
+      "Tidak peduli terhadap lingkungan",
+      "Mengutamakan kepentingan diri",
+      "Menghindari interaksi sosial",
+      "Menolak membantu sesama"
+    ],
+    "answer": "Mampu memahami dan merasakan kondisi orang lain",
+    "hint": "Empati berkaitan dengan kepedulian."
+  },
+  {
+    "id": 17,
+    "question": "Pemanfaatan teknologi digital dalam demokrasi harus disertai tanggung jawab. Tanggung jawab tersebut ditunjukkan dengan …",
+    "options": [
+      "Menggunakan teknologi secara etis dan bijak",
+      "Menyebarkan informasi tanpa verifikasi",
+      "Menghindari aturan hukum",
+      "Menyebarkan provokasi",
+      "Mengabaikan dampak sosial"
+    ],
+    "answer": "Menggunakan teknologi secara etis dan bijak",
+    "hint": "Etika penting dalam penggunaan teknologi."
+  },
+  {
+    "id": 18,
+    "question": "Salah satu bentuk kepedulian sosial di lingkungan sekolah adalah …",
+    "options": [
+      "Membantu teman yang mengalami kesulitan",
+      "Mengabaikan permasalahan teman",
+      "Menciptakan konflik",
+      "Membentuk kelompok eksklusif",
+      "Menolak kerja sama"
+    ],
+    "answer": "Membantu teman yang mengalami kesulitan",
+    "hint": "Lingkungan terdekat adalah sekolah."
+  },
+  {
+    "id": 19,
+    "question": "Partisipasi generasi muda dalam demokrasi tidak selalu melalui pemilu. Contoh partisipasi non-elektoral adalah …",
+    "options": [
+      "Mengikuti diskusi publik dan aksi sosial",
+      "Golput secara sengaja",
+      "Menghindari isu publik",
+      "Menolak peraturan",
+      "Menutup diri dari masyarakat"
+    ],
+    "answer": "Mengikuti diskusi publik dan aksi sosial",
+    "hint": "Non-elektoral tidak melalui pemungutan suara."
+  },
+  {
+    "id": 20,
+    "question": "Dalam kehidupan demokratis, kebebasan berpendapat harus disertai dengan …",
+    "options": [
+      "Tanggung jawab dan etika",
+      "Paksaan terhadap orang lain",
+      "Penyebaran kebencian",
+      "Pengabaian hukum",
+      "Kepentingan pribadi"
+    ],
+    "answer": "Tanggung jawab dan etika",
+    "hint": "Kebebasan tidak bersifat mutlak."
+  },
+  {
+    "id": 21,
+    "question": "Kepedulian sosial generasi muda dapat memperkuat persatuan bangsa karena …",
+    "options": [
+      "Mendorong solidaritas dan kebersamaan",
+      "Memicu persaingan tidak sehat",
+      "Mengabaikan kepentingan umum",
+      "Menimbulkan konflik",
+      "Melemahkan integrasi sosial"
+    ],
+    "answer": "Mendorong solidaritas dan kebersamaan",
+    "hint": "Solidaritas memperkuat persatuan."
+  },
+  {
+    "id": 22,
+    "question": "Salah satu sikap yang mencerminkan nilai keadilan sosial dalam demokrasi adalah …",
+    "options": [
+      "Memberikan perlakuan yang adil kepada semua pihak",
+      "Mengutamakan kelompok tertentu",
+      "Mengabaikan hak orang lain",
+      "Mendiskriminasi kelompok minoritas",
+      "Menolak kerja sama"
+    ],
+    "answer": "Memberikan perlakuan yang adil kepada semua pihak",
+    "hint": "Keadilan sosial bersifat inklusif."
+  },
+  {
+    "id": 23,
+    "question": "Peran generasi muda dalam menjaga demokrasi dapat dilakukan dengan cara …",
+    "options": [
+      "Mengawasi kebijakan publik secara kritis",
+      "Bersikap apatis terhadap politik",
+      "Menghindari diskusi publik",
+      "Menyebarkan hoaks",
+      "Menolak partisipasi sosial"
+    ],
+    "answer": "Mengawasi kebijakan publik secara kritis",
+    "hint": "Pengawasan adalah bagian dari partisipasi."
+  },
+  {
+    "id": 24,
+    "question": "Musyawarah sebagai nilai demokrasi mengajarkan pentingnya …",
+    "options": [
+      "Kerja sama dan kesepakatan bersama",
+      "Dominasi satu pihak",
+      "Pengambilan keputusan sepihak",
+      "Pengabaian perbedaan",
+      "Konflik berkepanjangan"
+    ],
+    "answer": "Kerja sama dan kesepakatan bersama",
+    "hint": "Musyawarah menekankan kebersamaan."
+  },
+  {
+    "id": 25,
+    "question": "Dalam konteks era modern, kepedulian sosial generasi muda juga dapat diwujudkan melalui media digital dengan cara …",
+    "options": [
+      "Menggalang dukungan untuk kegiatan sosial positif",
+      "Menyebarkan ujaran kebencian",
+      "Menghindari interaksi daring",
+      "Menyebarkan informasi palsu",
+      "Menutup akses informasi"
+    ],
+    "answer": "Menggalang dukungan untuk kegiatan sosial positif",
+    "hint": "Media digital dapat dimanfaatkan untuk kebaikan."
+  },
+  {
+    "id": 26,
+    "question": "Globalisasi membawa pengaruh besar terhadap kehidupan generasi muda, termasuk dalam bidang politik dan sosial. Agar identitas nasional tetap terjaga di tengah arus globalisasi, sikap yang paling tepat adalah …",
+    "options": [
+      "Menyaring pengaruh global tanpa meninggalkan nilai Pancasila",
+      "Menolak seluruh budaya asing tanpa pengecualian",
+      "Mengikuti budaya global secara bebas",
+      "Mengabaikan nilai budaya nasional",
+      "Menyerahkan pembinaan budaya kepada negara lain"
+    ],
+    "answer": "Menyaring pengaruh global tanpa meninggalkan nilai Pancasila",
+    "hint": "Globalisasi perlu disikapi secara selektif."
+  },
+  {
+    "id": 27,
+    "question": "Hak Asasi Manusia (HAM) adalah hak dasar yang melekat pada setiap manusia sejak lahir. Peran generasi muda dalam menghormati HAM dapat diwujudkan melalui …",
+    "options": [
+      "Menghargai hak dan martabat orang lain",
+      "Membatasi kebebasan kelompok tertentu",
+      "Mengutamakan kepentingan pribadi",
+      "Mengabaikan peraturan hukum",
+      "Menolak perbedaan pendapat"
+    ],
+    "answer": "Menghargai hak dan martabat orang lain",
+    "hint": "HAM berlaku untuk semua tanpa diskriminasi."
+  },
+  {
+    "id": 28,
+    "question": "Dalam kehidupan demokratis, supremasi hukum berarti hukum berada di atas kekuasaan. Makna prinsip tersebut adalah …",
+    "options": [
+      "Semua warga negara tunduk pada hukum",
+      "Hukum dapat diabaikan oleh penguasa",
+      "Kekuasaan lebih tinggi dari hukum",
+      "Hukum hanya berlaku bagi rakyat kecil",
+      "Penegakan hukum bersifat pilihan"
+    ],
+    "answer": "Semua warga negara tunduk pada hukum",
+    "hint": "Supremasi hukum menjamin keadilan."
+  },
+  {
+    "id": 29,
+    "question": "Salah satu dampak positif partisipasi generasi muda dalam kegiatan sosial adalah …",
+    "options": [
+      "Terbangunnya solidaritas dan kepedulian",
+      "Meningkatnya sikap individualisme",
+      "Munculnya konflik sosial",
+      "Menurunnya rasa kebersamaan",
+      "Menguatnya sikap apatis"
+    ],
+    "answer": "Terbangunnya solidaritas dan kepedulian",
+    "hint": "Kegiatan sosial mempererat hubungan."
+  },
+  {
+    "id": 30,
+    "question": "Pendidikan kewarganegaraan bertujuan membentuk warga negara yang demokratis dan bertanggung jawab. Sikap yang mencerminkan tujuan tersebut adalah …",
+    "options": [
+      "Patuh pada hukum dan aktif dalam masyarakat",
+      "Menghindari tanggung jawab sosial",
+      "Menolak aturan yang berlaku",
+      "Mengutamakan kepentingan pribadi",
+      "Bersikap acuh terhadap lingkungan"
+    ],
+    "answer": "Patuh pada hukum dan aktif dalam masyarakat",
+    "hint": "Warga negara demokratis bersikap aktif."
+  },
+  {
+    "id": 31,
+    "question": "Dalam konteks kepedulian sosial, gotong royong berarti bekerja bersama untuk mencapai tujuan bersama. Contoh penerapan gotong royong adalah …",
+    "options": [
+      "Kerja bakti membersihkan lingkungan",
+      "Mengandalkan orang lain sepenuhnya",
+      "Menghindari kegiatan bersama",
+      "Bekerja sendiri tanpa koordinasi",
+      "Menolak bantuan pihak lain"
+    ],
+    "answer": "Kerja bakti membersihkan lingkungan",
+    "hint": "Gotong royong adalah ciri khas bangsa Indonesia."
+  },
+  {
+    "id": 32,
+    "question": "Media digital dapat menjadi sarana penyebaran nilai demokrasi. Namun, penyalahgunaan media digital dapat berdampak negatif, seperti …",
+    "options": [
+      "Meningkatnya penyebaran hoaks",
+      "Meningkatnya literasi politik",
+      "Menguatnya persatuan nasional",
+      "Meningkatnya partisipasi berkualitas",
+      "Terbangunnya dialog konstruktif"
+    ],
+    "answer": "Meningkatnya penyebaran hoaks",
+    "hint": "Penyalahgunaan media sering memicu hoaks."
+  },
+  {
+    "id": 33,
+    "question": "Salah satu bentuk tanggung jawab generasi muda sebagai warga negara adalah …",
+    "options": [
+      "Menjaga persatuan dan kesatuan bangsa",
+      "Mengabaikan peraturan hukum",
+      "Menghindari peran sosial",
+      "Menyebarkan isu provokatif",
+      "Menolak kerja sama"
+    ],
+    "answer": "Menjaga persatuan dan kesatuan bangsa",
+    "hint": "Persatuan adalah tanggung jawab bersama."
+  },
+  {
+    "id": 34,
+    "question": "Dalam sistem demokrasi, kebebasan berpendapat dilindungi oleh hukum. Namun, kebebasan tersebut dibatasi oleh …",
+    "options": [
+      "Hak dan kebebasan orang lain",
+      "Keinginan kelompok tertentu",
+      "Kepentingan pribadi",
+      "Tekanan mayoritas",
+      "Kekuatan media"
+    ],
+    "answer": "Hak dan kebebasan orang lain",
+    "hint": "Kebebasan tidak boleh merugikan pihak lain."
+  },
+  {
+    "id": 35,
+    "question": "Kepedulian sosial generasi muda di era modern juga dapat diwujudkan melalui pemanfaatan teknologi dengan cara …",
+    "options": [
+      "Menggunakan teknologi untuk kegiatan sosial positif",
+      "Menyebarkan informasi palsu",
+      "Menghindari interaksi sosial",
+      "Mengutamakan hiburan semata",
+      "Menutup akses informasi"
+    ],
+    "answer": "Menggunakan teknologi untuk kegiatan sosial positif",
+    "hint": "Teknologi dapat dimanfaatkan untuk kebaikan."
+  },
+  {
+    "id": 36,
+    "question": "Salah satu indikator keberhasilan demokrasi adalah partisipasi aktif warga negara. Partisipasi tersebut ditunjukkan melalui …",
+    "options": [
+      "Keterlibatan dalam kegiatan sosial dan politik",
+      "Sikap apatis terhadap kebijakan publik",
+      "Penghindaran diskusi publik",
+      "Penolakan terhadap peraturan",
+      "Menyerahkan keputusan sepenuhnya pada elite"
+    ],
+    "answer": "Keterlibatan dalam kegiatan sosial dan politik",
+    "hint": "Partisipasi aktif memperkuat demokrasi."
+  },
+  {
+    "id": 37,
+    "question": "Dalam kehidupan berbangsa, nilai keadilan sosial bertujuan untuk …",
+    "options": [
+      "Mewujudkan kesejahteraan bagi seluruh rakyat",
+      "Mengutamakan kepentingan kelompok tertentu",
+      "Membiarkan kesenjangan sosial",
+      "Mengabaikan hak kelompok minoritas",
+      "Menciptakan persaingan tidak sehat"
+    ],
+    "answer": "Mewujudkan kesejahteraan bagi seluruh rakyat",
+    "hint": "Keadilan sosial bersifat menyeluruh."
+  },
+  {
+    "id": 38,
+    "question": "Generasi muda sebagai bagian dari masyarakat sipil memiliki peran dalam mengawasi jalannya pemerintahan. Peran tersebut disebut …",
+    "options": [
+      "Kontrol sosial",
+      "Dominasi politik",
+      "Intervensi kekuasaan",
+      "Tekanan kelompok",
+      "Kekuasaan absolut"
+    ],
+    "answer": "Kontrol sosial",
+    "hint": "Kontrol sosial menjaga akuntabilitas."
+  },
+  {
+    "id": 39,
+    "question": "Salah satu cara mencegah konflik sosial akibat perbedaan pandangan adalah …",
+    "options": [
+      "Mengembangkan sikap dialog dan toleransi",
+      "Menghindari komunikasi",
+      "Memaksakan pendapat sendiri",
+      "Menyebarkan isu provokatif",
+      "Menolak perbedaan"
+    ],
+    "answer": "Mengembangkan sikap dialog dan toleransi",
+    "hint": "Dialog membantu menyelesaikan perbedaan."
+  },
+  {
+    "id": 40,
+    "question": "Dalam demokrasi, keberadaan oposisi memiliki fungsi penting, yaitu …",
+    "options": [
+      "Mengawasi dan mengkritisi kebijakan pemerintah",
+      "Menghambat pembangunan nasional",
+      "Menjatuhkan pemerintah secara paksa",
+      "Mengabaikan kepentingan rakyat",
+      "Memonopoli kekuasaan"
+    ],
+    "answer": "Mengawasi dan mengkritisi kebijakan pemerintah",
+    "hint": "Oposisi bagian dari mekanisme demokrasi."
+  },
+  {
+    "id": 41,
+    "question": "Kepedulian sosial tidak hanya berkaitan dengan bantuan materi, tetapi juga sikap empati. Empati ditunjukkan dengan …",
+    "options": [
+      "Memahami dan merasakan kondisi orang lain",
+      "Bersikap acuh terhadap lingkungan",
+      "Mengutamakan kepentingan pribadi",
+      "Menghindari interaksi sosial",
+      "Menolak kerja sama"
+    ],
+    "answer": "Memahami dan merasakan kondisi orang lain",
+    "hint": "Empati adalah dasar kepedulian."
+  },
+  {
+    "id": 42,
+    "question": "Dalam konteks demokrasi, transparansi berarti keterbukaan dalam proses pengambilan keputusan. Tujuan transparansi adalah …",
+    "options": [
+      "Meningkatkan kepercayaan publik",
+      "Menyembunyikan informasi",
+      "Membatasi partisipasi masyarakat",
+      "Menguatkan kekuasaan elite",
+      "Mengurangi akuntabilitas"
+    ],
+    "answer": "Meningkatkan kepercayaan publik",
+    "hint": "Keterbukaan mendorong kepercayaan."
+  },
+  {
+    "id": 43,
+    "question": "Generasi muda yang memiliki kesadaran hukum akan menunjukkan perilaku …",
+    "options": [
+      "Taat pada peraturan yang berlaku",
+      "Mengabaikan norma hukum",
+      "Melanggar aturan demi kepentingan pribadi",
+      "Menolak penegakan hukum",
+      "Menghindari tanggung jawab"
+    ],
+    "answer": "Taat pada peraturan yang berlaku",
+    "hint": "Kesadaran hukum tercermin dari kepatuhan."
+  },
+  {
+    "id": 44,
+    "question": "Salah satu tantangan kepedulian sosial di era modern adalah meningkatnya individualisme. Dampak dari individualisme berlebihan adalah …",
+    "options": [
+      "Menurunnya rasa solidaritas sosial",
+      "Menguatnya kebersamaan",
+      "Meningkatnya kepedulian lingkungan",
+      "Terbangunnya kerja sama",
+      "Menguatnya persatuan"
+    ],
+    "answer": "Menurunnya rasa solidaritas sosial",
+    "hint": "Individualisme berlebihan melemahkan solidaritas."
+  },
+  {
+    "id": 45,
+    "question": "Dalam kehidupan demokratis, sikap adil berarti …",
+    "options": [
+      "Memberikan hak sesuai dengan kewajiban",
+      "Mengutamakan kelompok tertentu",
+      "Mengabaikan kepentingan minoritas",
+      "Mendiskriminasi pihak lain",
+      "Menolak kerja sama"
+    ],
+    "answer": "Memberikan hak sesuai dengan kewajiban",
+    "hint": "Keadilan berkaitan dengan keseimbangan."
+  },
+  {
+    "id": 46,
+    "question": "Partisipasi aktif generasi muda dalam kegiatan sosial dapat berkontribusi pada …",
+    "options": [
+      "Pembangunan sosial yang berkelanjutan",
+      "Meningkatnya konflik sosial",
+      "Menurunnya kualitas demokrasi",
+      "Melemahnya persatuan",
+      "Menguatnya sikap apatis"
+    ],
+    "answer": "Pembangunan sosial yang berkelanjutan",
+    "hint": "Partisipasi aktif berdampak jangka panjang."
+  },
+  {
+    "id": 47,
+    "question": "Salah satu wujud tanggung jawab digital warga negara adalah …",
+    "options": [
+      "Menggunakan media digital secara etis",
+      "Menyebarkan konten provokatif",
+      "Mengabaikan dampak informasi",
+      "Menyebarkan hoaks",
+      "Menolak literasi digital"
+    ],
+    "answer": "Menggunakan media digital secara etis",
+    "hint": "Etika digital penting di era modern."
+  },
+  {
+    "id": 48,
+    "question": "Dalam konteks kehidupan berbangsa, persatuan memiliki makna …",
+    "options": [
+      "Kesediaan hidup bersama dalam keberagaman",
+      "Penyeragaman budaya",
+      "Penghapusan perbedaan",
+      "Dominasi satu kelompok",
+      "Penolakan terhadap keberagaman"
+    ],
+    "answer": "Kesediaan hidup bersama dalam keberagaman",
+    "hint": "Persatuan tidak menghapus perbedaan."
+  },
+  {
+    "id": 49,
+    "question": "Peran generasi muda dalam mengisi demokrasi di era modern salah satunya adalah …",
+    "options": [
+      "Menjadi pelopor perubahan positif",
+      "Menjauh dari kehidupan sosial",
+      "Bersikap apatis",
+      "Menolak partisipasi publik",
+      "Menghindari tanggung jawab"
+    ],
+    "answer": "Menjadi pelopor perubahan positif",
+    "hint": "Generasi muda adalah agen perubahan."
+  },
+  {
+    "id": 50,
+    "question": "Kepedulian sosial dan partisipasi demokratis generasi muda pada akhirnya bertujuan untuk …",
+    "options": [
+      "Mewujudkan masyarakat yang adil dan sejahtera",
+      "Menguatkan kepentingan kelompok tertentu",
+      "Menciptakan persaingan tidak sehat",
+      "Mengabaikan kepentingan umum",
+      "Menurunkan kualitas kehidupan sosial"
+    ],
+    "answer": "Mewujudkan masyarakat yang adil dan sejahtera",
+    "hint": "Tujuan akhir adalah kesejahteraan bersama."
+  }
+]
