@@ -416,6 +416,8 @@ document.addEventListener('DOMContentLoaded', () => {
         });
 
         modal.overlay.classList.remove('hidden');
+        // Add active class for animation/visibility
+        setTimeout(() => modal.overlay.classList.add('active'), 10);
     }
 
     function showLoading(msg) {
@@ -423,11 +425,14 @@ document.addEventListener('DOMContentLoaded', () => {
         modal.msg.textContent = msg;
         modal.icon.innerHTML = '<div class="spinner"></div>'; // Use innerHTML for spinner
         modal.actions.innerHTML = ''; // No buttons
+        modal.actions.innerHTML = ''; // No buttons
         modal.overlay.classList.remove('hidden');
+        setTimeout(() => modal.overlay.classList.add('active'), 10);
     }
 
     function closeModal() {
-        modal.overlay.classList.add('hidden');
+        modal.overlay.classList.remove('active');
+        setTimeout(() => modal.overlay.classList.add('hidden'), 300);
     }
 
     // Helper Wrappers

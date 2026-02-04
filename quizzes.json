@@ -1,11 +1,11 @@
 [
     {
         "id": "ppkn-dasar",
-        "title": "PPKN Dasar",
+        "title": "PPKN Nasional",
         "description": "Peran generasi muda dalam membangun demokrasi dan kepedulian sosial di era modern.",
         "file": "questions_ppkn_v1.json",
         "icon": "🇮🇩",
-        "duration": 60,
+        "duration": 75,
         "token": "MERDEKA"
     },
     {
@@ -14,7 +14,7 @@
         "description": "Soal contoh",
         "file": "questions_contoh.json",
         "icon": "🌍",
-        "duration": 45,
+        "duration": 1,
         "token": "INDONESIA"
     }
 ]
