@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
         quizMetadata: null,
         questions: [],
         currentQuestionIndex: 0,
-        userAnswers: {}, // { index: answer }
+        userAnswers: {},
         isExamActive: false,
         examEndTime: 0,
         timerInterval: null,
@@ -45,6 +45,15 @@ document.addEventListener('DOMContentLoaded', () => {
         total: document.getElementById('res-total')
     };
 
+    // Modal Elements
+    const modal = {
+        overlay: document.getElementById('custom-modal'),
+        icon: document.getElementById('modal-icon'),
+        title: document.getElementById('modal-title'),
+        msg: document.getElementById('modal-msg'),
+        actions: document.getElementById('modal-actions')
+    };
+
     // --- Init ---
     init();
 
@@ -56,7 +65,6 @@ document.addEventListener('DOMContentLoaded', () => {
             return;
         }
 
-        // Check for saved state (Persistence)
         const savedState = localStorage.getItem('exam_state');
 
         await loadQuizData(quizId);
@@ -70,7 +78,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     async function loadQuizData(quizId) {
         try {
-            // Get Metadata first (from quizzes.json)
             const resMeta = await fetch('quizzes.json');
             const allQuizzes = await resMeta.json();
             const quiz = allQuizzes.find(q => q.id === quizId);
@@ -79,14 +86,12 @@ document.addEventListener('DOMContentLoaded', () => {
             state.quizMetadata = quiz;
             quizDisplay.title.textContent = quiz.title;
 
-            // Load Questions
             const resQ = await fetch(quiz.file);
             state.questions = await resQ.json();
 
         } catch (e) {
             console.error(e);
-            alert('Gagal memuat data ujian.');
-            window.location.href = 'index.html';
+            showAlert('Error', 'Gagal memuat data ujian.', 'danger', () => window.location.href = 'index.html');
         }
     }
 
@@ -96,20 +101,18 @@ document.addEventListener('DOMContentLoaded', () => {
         state.violationCount = 0;
         state.isExamActive = true;
 
-        // Timer Setup
         const durationMinutes = state.quizMetadata.duration || 60;
         state.examEndTime = Date.now() + (durationMinutes * 60 * 1000);
 
         startTimer();
-        saveState(); // Save Initial State
+        saveState();
         renderUI();
         activateAntiCheat();
     }
 
     function restoreState(saved) {
-        // Validate if saved state matches current quiz
         if (saved.quizId !== state.quizMetadata.id) {
-            initializeNewExam(); // Mismatch (shouldn't happen usually), reset
+            initializeNewExam();
             return;
         }
 
@@ -165,7 +168,7 @@ document.addEventListener('DOMContentLoaded', () => {
         else quizDisplay.timer.style.color = 'white';
     }
 
-    // --- Render Logic ---
+    // --- UI Logic ---
     function renderUI() {
         renderQuestion();
         renderPalette();
@@ -180,7 +183,6 @@ document.addEventListener('DOMContentLoaded', () => {
         quizDisplay.qNumber.textContent = index + 1;
         quizDisplay.qText.textContent = question.question;
 
-        // Hint
         quizDisplay.hintBox.classList.add('hidden');
         if (question.hint) {
             quizDisplay.hintBtn.classList.remove('hidden');
@@ -189,7 +191,6 @@ document.addEventListener('DOMContentLoaded', () => {
             quizDisplay.hintBtn.classList.add('hidden');
         }
 
-        // Options
         quizDisplay.options.innerHTML = '';
         question.options.forEach(opt => {
             const el = document.createElement('div');
@@ -202,9 +203,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function selectAnswer(index, answer) {
         state.userAnswers[index] = answer;
-        renderQuestion(); // Update UI selection
+        renderQuestion();
         updatePaletteItem(index);
-        saveState(); // Persist
+        saveState();
     }
 
     function renderPalette() {
@@ -240,7 +241,7 @@ document.addEventListener('DOMContentLoaded', () => {
         updatePaletteItem(idx);
         renderQuestion();
         updateNavButtons();
-        saveState(); // Save current index
+        saveState();
     }
 
     function updateNavButtons() {
@@ -256,7 +257,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    // --- Inputs ---
     nav.prev.onclick = () => { if (state.currentQuestionIndex > 0) jumpToQuestion(state.currentQuestionIndex - 1); };
     nav.next.onclick = () => { if (state.currentQuestionIndex < state.questions.length - 1) jumpToQuestion(state.currentQuestionIndex + 1); };
     nav.finish.onclick = () => finishExam(false);
@@ -279,24 +279,29 @@ document.addEventListener('DOMContentLoaded', () => {
         const remaining = state.examEndTime - Date.now();
 
         if (!isForced && remaining > 0 && answeredCount < total) {
-            alert(`Masih ada ${total - answeredCount} soal belum dijawab. Waktu masih tersedia.`);
+            showAlert('Belum Selesai', `Masih ada ${total - answeredCount} soal belum dijawab. Mohon lengkapi semua jawaban sebelum mengumpulkan.`, 'warning');
             return;
         }
 
-        if (!isForced && !confirm('Yakin ingin menyelesaikan ujian?')) return;
+        if (isForced) {
+            showAlert('Waktu Habis', 'Waktu ujian telah habis. Jawaban Anda akan otomatis dikumpulkan.', 'warning', () => {
+                completeProcess();
+            });
+        } else {
+            showConfirm('Konfirmasi', 'Apakah Anda yakin ingin menyelesaikan ujian ini? Jawaban tidak dapat diubah setelah ini.', () => {
+                completeProcess();
+            });
+        }
+    }
 
-        if (isForced) alert('Waktu Habis!');
-
-        // Clear Persistence Logic
-        // We only clear the state AFTER we've successfully calculated results.
-        stopExam();
-        calculateResults();
-
-        // Remove state so if they refresh, they go back to start? 
-        // Or keep result view logic? Result view is transient in memory here.
-        // If user refreshes on Result View, they will be sent back to exam start because 'exam_state' is gone.
-        // This is acceptable behavior for "Reset ke nomer 1".
-        localStorage.removeItem('exam_state');
+    function completeProcess() {
+        showLoading('Mengirim jawaban ke server...');
+        setTimeout(() => {
+            closeModal();
+            stopExam();
+            calculateResults();
+            localStorage.removeItem('exam_state');
+        }, 2000); // 2 seconds delay simulation
     }
 
     function stopExam() {
@@ -339,21 +344,87 @@ document.addEventListener('DOMContentLoaded', () => {
     function handleVisibility() {
         if (document.hidden && state.isExamActive) {
             state.violationCount++;
-            saveState(); // Persist violation
+            saveState();
 
             const max = 5;
             if (state.violationCount < max) {
-                alert(`PERINGATAN (${state.violationCount}/${max}): Jangan keluar dari halaman ujian! Toleransi sisa ${max - state.violationCount}.`);
+                showAlert('FOKUS!', `Anda terdeteksi keluar dari halaman ujian (${state.violationCount}/${max}).\nJika mencapai batas maksimal, ujian akan direset.`, 'warning');
             } else {
-                alert('PELANGGARAN MAKSIMAL! Ujian akan direset dari awal.');
-                resetExamHard();
+                showAlert('FOKUS!', 'Anda telah melanggar batas toleransi. Ujian akan direset dari awal.', 'danger', () => {
+                    resetExamHard();
+                });
             }
         }
     }
 
     function resetExamHard() {
         localStorage.removeItem('exam_state');
-        window.location.reload(); // Will verify state is gone and start fresh
+        window.location.reload();
+    }
+
+    // --- Custom Modal System ---
+    function showModal(title, msg, type = 'info', actions = []) {
+        modal.title.textContent = title;
+        modal.msg.textContent = msg;
+
+        // Icon & Color
+        if (type === 'danger') {
+            modal.icon.textContent = '⛔';
+            modal.icon.style.color = 'var(--danger)';
+        } else if (type === 'warning') {
+            modal.icon.textContent = '⚠️';
+            modal.icon.style.color = 'var(--warning)';
+        } else {
+            modal.icon.textContent = 'ℹ️';
+            modal.icon.style.color = 'var(--primary)';
+        }
+
+        // Buttons
+        modal.actions.innerHTML = '';
+        actions.forEach(action => {
+            const btn = document.createElement('button');
+            btn.className = `modal-btn ${action.cls || 'confirm'}`;
+            btn.textContent = action.text;
+            btn.onclick = () => {
+                closeModal();
+                if (action.onClick) action.onClick();
+            };
+            modal.actions.appendChild(btn);
+        });
+
+        modal.overlay.classList.remove('hidden');
+    }
+
+    function showLoading(msg) {
+        modal.title.textContent = 'Mohon Tunggu';
+        modal.msg.textContent = msg;
+        modal.icon.innerHTML = '<div class="spinner"></div>'; // Use innerHTML for spinner
+        modal.actions.innerHTML = ''; // No buttons
+        modal.overlay.classList.remove('hidden');
+    }
+
+    function closeModal() {
+        modal.overlay.classList.add('hidden');
+    }
+
+    // Helper Wrappers
+    function showAlert(title, msg, type = 'info', onOk = null) {
+        showModal(title, msg, type, [
+            { text: 'OK', cls: 'confirm', onClick: onOk }
+        ]);
+    }
+
+    function showConfirm(title, msg, onYes) {
+        showModal(title, msg, 'info', [
+            { text: 'Batal', cls: 'cancel' },
+            { text: 'Ya, Selesaikan', cls: 'confirm', onClick: onYes }
+        ]);
+    }
+
+    // Print Button
+    const printBtn = document.getElementById('print-btn');
+    if (printBtn) {
+        printBtn.onclick = () => window.print();
     }
 
 });

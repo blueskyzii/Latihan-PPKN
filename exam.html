@@ -90,33 +90,49 @@
     <div id="result-view" class="view hidden">
         <div class="result-container">
             <div class="card result-card">
-                <div class="result-icon">🏆</div>
-                <h2>Ujian Selesai</h2>
-                <p id="result-exam-title">Nama Ujian</p>
-
-                <div class="score-circle">
-                    <span id="score-final">0</span>
-                    <small>Nilai Akhir</small>
+                <div class="result-header-bg">
+                    <div class="result-icon">🏆</div>
+                    <h2>Ujian Selesai</h2>
+                    <p id="result-exam-title">Nama Ujian</p>
                 </div>
 
-                <div class="result-breakdown">
-                    <div class="rb-item correct">
-                        <span>Benar</span>
-                        <strong id="res-correct">0</strong>
+                <div class="result-body">
+                    <div class="score-circle">
+                        <span id="score-final">0</span>
+                        <small>Nilai Akhir</small>
                     </div>
-                    <div class="rb-item wrong">
-                        <span>Salah</span>
-                        <strong id="res-wrong">0</strong>
-                    </div>
-                    <div class="rb-item total">
-                        <span>Total Soal</span>
-                        <strong id="res-total">0</strong>
-                    </div>
-                </div>
 
-                <div class="result-actions">
-                    <a href="index.html" class="btn-primary full-width"
-                        style="text-decoration:none; display:inline-block;">Kembali ke Dashboard</a>
+                    <div class="result-breakdown">
+                        <div class="rb-item correct">
+                            <span>Benar</span>
+                            <strong id="res-correct">0</strong>
+                        </div>
+                        <div class="rb-item wrong">
+                            <span>Salah</span>
+                            <strong id="res-wrong">0</strong>
+                        </div>
+                        <div class="rb-item total">
+                            <span>Total Soal</span>
+                            <strong id="res-total">0</strong>
+                        </div>
+                    </div>
+
+                    <!-- Submission Status -->
+                    <div class="submission-status">
+                        <div class="status-icon">✅</div>
+                        <div class="status-text">
+                            <strong>Nilai Berhasil Dikirim</strong>
+                            <small>Data telah tersimpan di server guru.</small>
+                        </div>
+                    </div>
+
+                    <div class="result-actions">
+                        <button id="print-btn" class="btn-secondary full-width"
+                            style="margin-bottom: 10px; padding: 0 20px;">🖨️ Cetak
+                            Bukti</button>
+                        <a href="index.html" class="btn-primary full-width"
+                            style="text-decoration:none; display:inline-block;">Kembali ke Dashboard</a>
+                    </div>
                 </div>
             </div>
         </div>
