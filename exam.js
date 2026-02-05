@@ -8,7 +8,8 @@ document.addEventListener('DOMContentLoaded', () => {
         isExamActive: false,
         examEndTime: 0,
         timerInterval: null,
-        violationCount: 0
+        violationCount: 0,
+        isReviewMode: false
     };
 
     // --- DOM Elements ---
@@ -34,7 +35,8 @@ document.addEventListener('DOMContentLoaded', () => {
         next: document.getElementById('next-btn'),
         finish: document.getElementById('finish-btn'),
         togglePalette: document.getElementById('toggle-palette-btn'),
-        closePalette: document.getElementById('close-palette-btn')
+        closePalette: document.getElementById('close-palette-btn'),
+        reviewBack: document.getElementById('review-back-btn')
     };
 
     const resultDisplay = {
@@ -42,7 +44,9 @@ document.addEventListener('DOMContentLoaded', () => {
         score: document.getElementById('score-final'),
         correct: document.getElementById('res-correct'),
         wrong: document.getElementById('res-wrong'),
-        total: document.getElementById('res-total')
+        total: document.getElementById('res-total'),
+        detailBtn: document.getElementById('detail-btn'),
+        detailsContainer: document.getElementById('result-details')
     };
 
     // Modal Elements
@@ -159,6 +163,11 @@ document.addEventListener('DOMContentLoaded', () => {
         }, 1000);
     }
 
+    // --- Timer ---
+    function stopTimer() {
+        if (state.timerInterval) clearInterval(state.timerInterval);
+    }
+
     function updateTimerDisplay(remainingMs) {
         if (remainingMs === undefined) remainingMs = state.examEndTime - Date.now();
         if (remainingMs < 0) remainingMs = 0;
@@ -201,11 +210,40 @@ document.addEventListener('DOMContentLoaded', () => {
         quizDisplay.options.innerHTML = '';
         question.options.forEach(opt => {
             const el = document.createElement('div');
-            el.className = `option-item ${userAnswer === opt ? 'selected' : ''}`;
+            // Base class
+            let cls = 'option-item';
+
+            if (state.isReviewMode) {
+                // Review Mode Styles
+                if (opt === question.answer) {
+                    cls += ' correct-answer';
+                } else if (userAnswer === opt && userAnswer !== question.answer) {
+                    cls += ' wrong-answer';
+                } else if (userAnswer === opt) {
+                    // Correct answer selected, already covered by first if
+                    cls += ' selected';
+                }
+            } else {
+                // Regular Exam Mode
+                if (userAnswer === opt) cls += ' selected';
+            }
+
+            el.className = cls;
             el.textContent = opt;
-            el.onclick = () => selectAnswer(index, opt);
+
+            // Interaction
+            if (!state.isReviewMode) {
+                el.onclick = () => selectAnswer(index, opt);
+            }
+
             quizDisplay.options.appendChild(el);
         });
+
+        // Review Mode: Always show hint
+        if (state.isReviewMode && question.hint) {
+            quizDisplay.hintBox.classList.remove('hidden');
+            quizDisplay.hintText.textContent = question.hint;
+        }
     }
 
     function selectAnswer(index, answer) {
@@ -233,9 +271,18 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function getPaletteClass(idx) {
         const isCurrent = idx === state.currentQuestionIndex;
-        const isAnswered = state.userAnswers[idx] !== undefined;
         let cls = 'p-btn';
-        if (isAnswered) cls += ' filled';
+
+        if (state.isReviewMode) {
+            const q = state.questions[idx];
+            const answer = state.userAnswers[idx];
+            if (answer === q.answer) cls += ' correct';
+            else cls += ' wrong';
+        } else {
+            const isAnswered = state.userAnswers[idx] !== undefined;
+            if (isAnswered) cls += ' filled';
+        }
+
         if (isCurrent) cls += ' current';
         return cls;
     }
@@ -257,17 +304,19 @@ document.addEventListener('DOMContentLoaded', () => {
 
         if (idx === state.questions.length - 1) {
             nav.next.classList.add('hidden');
-            nav.finish.classList.remove('hidden');
+            if (!state.isReviewMode) nav.finish.classList.remove('hidden');
         } else {
             nav.next.classList.remove('hidden');
             nav.finish.classList.add('hidden');
         }
+
+        if (state.isReviewMode) {
+            nav.finish.classList.add('hidden');
+            nav.reviewBack.classList.remove('hidden');
+        } else {
+            nav.reviewBack.classList.add('hidden');
+        }
     }
-
-    nav.prev.onclick = () => { if (state.currentQuestionIndex > 0) jumpToQuestion(state.currentQuestionIndex - 1); };
-    nav.next.onclick = () => { if (state.currentQuestionIndex < state.questions.length - 1) jumpToQuestion(state.currentQuestionIndex + 1); };
-    nav.finish.onclick = () => finishExam(false);
-
     quizDisplay.hintBtn.onclick = () => quizDisplay.hintBox.classList.toggle('hidden');
 
     function togglePalette() {
@@ -278,6 +327,16 @@ document.addEventListener('DOMContentLoaded', () => {
     nav.closePalette.onclick = togglePalette;
     quizDisplay.overlay.onclick = togglePalette;
 
+    nav.prev.onclick = () => { if (state.currentQuestionIndex > 0) jumpToQuestion(state.currentQuestionIndex - 1); };
+    nav.next.onclick = () => { if (state.currentQuestionIndex < state.questions.length - 1) jumpToQuestion(state.currentQuestionIndex + 1); };
+    nav.finish.onclick = () => finishExam(false);
+    nav.reviewBack.onclick = () => {
+        // Back to Result View
+        quizView.classList.remove('active');
+        quizView.classList.add('hidden');
+        resultView.classList.remove('hidden');
+        resultView.classList.add('active');
+    };
 
     // --- Finish Logic ---
     function finishExam(isForced) {
@@ -335,7 +394,32 @@ document.addEventListener('DOMContentLoaded', () => {
         quizView.classList.add('hidden');
         resultView.classList.remove('hidden');
         resultView.classList.add('active');
+
+        // Setup Detail Button
+        resultDisplay.detailBtn.onclick = () => {
+            startReviewMode();
+        };
     }
+
+    function startReviewMode() {
+        state.isReviewMode = true;
+        state.currentQuestionIndex = 0;
+
+        // Switch Views
+        resultView.classList.remove('active');
+        resultView.classList.add('hidden');
+        quizView.classList.remove('hidden');
+        quizView.classList.add('active');
+
+        // Update UI
+        quizDisplay.title.textContent = "Review Hasil: " + state.quizMetadata.title;
+        quizDisplay.timer.textContent = "REVIEW";
+        quizDisplay.timer.style.color = "var(--primary)";
+
+        renderUI();
+    }
+
+    /* REMOVED OLD DETAILED RESULT RENDERER */
 
     // --- Anti Cheat ---
     function activateAntiCheat() {
