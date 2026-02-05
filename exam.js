@@ -348,6 +348,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Prevent accidental tab close/refresh (Standard Browser Confirmation)
         window.addEventListener('beforeunload', handleBeforeUnload);
+
+        // Block Copy/Paste/Select
+        document.addEventListener('copy', preventDefault);
+        document.addEventListener('cut', preventDefault);
+        document.addEventListener('paste', preventDefault);
+        document.addEventListener('selectstart', preventDefault);
     }
 
     function deactivateAntiCheat() {
@@ -355,6 +361,11 @@ document.addEventListener('DOMContentLoaded', () => {
         document.removeEventListener('visibilitychange', handleVisibility);
         window.removeEventListener('popstate', handlePopState);
         window.removeEventListener('beforeunload', handleBeforeUnload);
+
+        document.removeEventListener('copy', preventDefault);
+        document.removeEventListener('cut', preventDefault);
+        document.removeEventListener('paste', preventDefault);
+        document.removeEventListener('selectstart', preventDefault);
     }
 
     function preventDefault(e) { e.preventDefault(); }
@@ -388,8 +399,23 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function resetExamHard() {
-        localStorage.removeItem('exam_state');
-        window.location.reload();
+        // Soft Reset without reload
+        state.userAnswers = {};
+        state.currentQuestionIndex = 0;
+        state.violationCount = 0;
+
+        // Reset Timer
+        const durationMinutes = state.quizMetadata.duration || 60;
+        state.examEndTime = Date.now() + (durationMinutes * 60 * 1000);
+
+        // Clear existing interval to avoid conflict
+        if (state.timerInterval) clearInterval(state.timerInterval);
+
+        saveState();
+        renderUI();
+        startTimer();
+
+        closeModal();
     }
 
     // --- Custom Modal System ---

@@ -31,6 +31,10 @@ body {
     color: var(--text-main);
     height: 100vh;
     overflow-x: hidden;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
 }
 
 /* Utilities */
