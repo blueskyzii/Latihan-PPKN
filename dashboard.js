@@ -124,4 +124,21 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     cancelTokenBtn.addEventListener('click', closeTokenModal);
+
+    // --- Mobile Sidebar Logic ---
+    const menuBtn = document.getElementById('dash-menu-btn');
+    const sidebar = document.querySelector('.dashboard-sidebar');
+    const overlay = document.getElementById('sidebar-overlay');
+
+    if (menuBtn && sidebar && overlay) {
+        menuBtn.addEventListener('click', () => {
+            sidebar.classList.toggle('active');
+            overlay.classList.toggle('active');
+        });
+
+        overlay.addEventListener('click', () => {
+            sidebar.classList.remove('active');
+            overlay.classList.remove('active');
+        });
+    }
 });

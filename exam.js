@@ -9,7 +9,8 @@ document.addEventListener('DOMContentLoaded', () => {
         examEndTime: 0,
         timerInterval: null,
         violationCount: 0,
-        isReviewMode: false
+        isReviewMode: false,
+        isFinished: false
     };
 
     // --- DOM Elements ---
@@ -46,7 +47,8 @@ document.addEventListener('DOMContentLoaded', () => {
         wrong: document.getElementById('res-wrong'),
         total: document.getElementById('res-total'),
         detailBtn: document.getElementById('detail-btn'),
-        detailsContainer: document.getElementById('result-details')
+        detailsContainer: document.getElementById('result-details'),
+        backToDash: document.getElementById('back-to-dash')
     };
 
     // Modal Elements
@@ -111,6 +113,7 @@ document.addEventListener('DOMContentLoaded', () => {
         state.userAnswers = {};
         state.violationCount = 0;
         state.isExamActive = true;
+        state.isFinished = false;
 
         const durationMinutes = state.quizMetadata.duration || 60;
         state.examEndTime = Date.now() + (durationMinutes * 60 * 1000);
@@ -131,7 +134,13 @@ document.addEventListener('DOMContentLoaded', () => {
         state.userAnswers = saved.userAnswers || {};
         state.violationCount = saved.violationCount || 0;
         state.examEndTime = saved.examEndTime;
-        state.isExamActive = true;
+        state.isExamActive = saved.isExamActive; // Restore active state
+        state.isFinished = saved.isFinished || false;
+
+        if (state.isFinished) {
+            calculateResults(); // Direct to results
+            return;
+        }
 
         startTimer();
         renderUI();
@@ -139,13 +148,15 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function saveState() {
-        if (!state.isExamActive) return;
+        // Always save unless explicitly cleared, to allow persistence
         const payload = {
             quizId: state.quizMetadata.id,
             currentQuestionIndex: state.currentQuestionIndex,
             userAnswers: state.userAnswers,
             violationCount: state.violationCount,
-            examEndTime: state.examEndTime
+            examEndTime: state.examEndTime,
+            isExamActive: state.isExamActive,
+            isFinished: state.isFinished
         };
         localStorage.setItem('exam_state', JSON.stringify(payload));
     }
@@ -312,7 +323,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
         if (state.isReviewMode) {
             nav.finish.classList.add('hidden');
-            nav.reviewBack.classList.remove('hidden');
+            if (idx === state.questions.length - 1) {
+                nav.reviewBack.classList.remove('hidden');
+            } else {
+                nav.reviewBack.classList.add('hidden');
+            }
         } else {
             nav.reviewBack.classList.add('hidden');
         }
@@ -337,6 +352,7 @@ document.addEventListener('DOMContentLoaded', () => {
         resultView.classList.remove('hidden');
         resultView.classList.add('active');
     };
+
 
     // --- Finish Logic ---
     function finishExam(isForced) {
@@ -365,8 +381,10 @@ document.addEventListener('DOMContentLoaded', () => {
         setTimeout(() => {
             closeModal();
             stopExam();
+            state.isFinished = true; // Mark as finished
+            saveState(); // Save finished state
             calculateResults();
-            localStorage.removeItem('exam_state');
+            // localStorage.removeItem('exam_state'); // Removed to support persistence
         }, 2000); // 2 seconds delay simulation
     }
 
@@ -578,6 +596,18 @@ document.addEventListener('DOMContentLoaded', () => {
             const j = Math.floor(Math.random() * (i + 1));
             [array[i], array[j]] = [array[j], array[i]];
         }
+    }
+
+    // --- Dashboard Confirmation ---
+    if (resultDisplay.backToDash) {
+        resultDisplay.backToDash.onclick = (e) => {
+            e.preventDefault();
+            showConfirm('Konfirmasi', 'Apakah Anda yakin ingin kembali ke dashboard? Data ujian akan dihapus dari penyimpanan lokal.', () => {
+                localStorage.removeItem('exam_state');
+                localStorage.removeItem('current_quiz_id');
+                window.location.href = 'index.html';
+            });
+        };
     }
 
 });
