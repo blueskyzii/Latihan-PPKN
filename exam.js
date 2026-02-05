@@ -87,7 +87,14 @@ document.addEventListener('DOMContentLoaded', () => {
             quizDisplay.title.textContent = quiz.title;
 
             const resQ = await fetch(quiz.file);
-            state.questions = await resQ.json();
+            const loadedQuestions = await resQ.json();
+
+            // Randomize options
+            loadedQuestions.forEach(q => {
+                if (q.options) shuffleArray(q.options);
+            });
+
+            state.questions = loadedQuestions;
 
         } catch (e) {
             console.error(e);
@@ -453,6 +460,14 @@ document.addEventListener('DOMContentLoaded', () => {
     const printBtn = document.getElementById('print-btn');
     if (printBtn) {
         printBtn.onclick = () => window.print();
+    }
+
+    // --- Utility ---
+    function shuffleArray(array) {
+        for (let i = array.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [array[i], array[j]] = [array[j], array[i]];
+        }
     }
 
 });
