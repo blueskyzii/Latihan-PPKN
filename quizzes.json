@@ -1,7 +1,16 @@
 [
     {
+        "id": "ppkn-nasional",
+        "title": "PPKN Tingkat Nasional",
+        "description": "Peran generasi muda dalam membangun demokrasi dan kepedulian sosial di era modern.",
+        "file": "soal-ppkn-v2.json",
+        "icon": "🇮🇩",
+        "duration": 60,
+        "token": "BEBAS"
+    },
+    {
         "id": "ppkn-dasar",
-        "title": "PPKN Nasional",
+        "title": "PPKN",
         "description": "Peran generasi muda dalam membangun demokrasi dan kepedulian sosial di era modern.",
         "file": "questions_ppkn_v1.json",
         "icon": "🇮🇩",
