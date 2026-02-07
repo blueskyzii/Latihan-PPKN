@@ -1,0 +1,652 @@
+[
+    {
+        "id": "q1",
+        "question": "Konsep diferensiasi sosial berbeda dengan stratifikasi sosial karena diferensiasi sosial menekankan pada...",
+        "options": [
+            "Perbedaan status secara vertikal",
+            "Perbedaan kedudukan berdasarkan kekuasaan",
+            "Perbedaan tanpa adanya tingkatan",
+            "Pelapisan berdasarkan ekonomi",
+            "Pembagian kelas sosial"
+        ],
+        "answer": "Perbedaan tanpa adanya tingkatan",
+        "hint": "Bersifat horizontal."
+    },
+    {
+        "id": "q2",
+        "question": "Menurut Max Weber, stratifikasi sosial tidak hanya ditentukan oleh ekonomi, tetapi juga oleh...",
+        "options": [
+            "Budaya dan adat",
+            "Status dan kekuasaan",
+            "Agama dan pendidikan",
+            "Norma dan nilai",
+            "Hukum dan politik"
+        ],
+        "answer": "Status dan kekuasaan",
+        "hint": "Tiga dimensi stratifikasi."
+    },
+    {
+        "id": "q3",
+        "question": "Perubahan sosial yang disertai dengan benturan keras dan menyentuh sendi utama masyarakat disebut...",
+        "options": [
+            "Evolusi",
+            "Difusi",
+            "Revolusi",
+            "Modernisasi",
+            "Inovasi"
+        ],
+        "answer": "Revolusi",
+        "hint": "Terjadi relatif cepat."
+    },
+    {
+        "id": "q4",
+        "question": "Contoh mobilitas sosial vertikal turun adalah...",
+        "options": [
+            "Petani menjadi pedagang",
+            "Direktur menjadi staf biasa",
+            "Guru pindah sekolah",
+            "Mahasiswa lulus kuliah",
+            "Buruh pindah pabrik"
+        ],
+        "answer": "Direktur menjadi staf biasa",
+        "hint": "Penurunan status."
+    },
+    {
+        "id": "q5",
+        "question": "Konsep anomie menurut Émile Durkheim merujuk pada kondisi...",
+        "options": [
+            "Konflik terbuka",
+            "Ketiadaan norma",
+            "Dominasi budaya",
+            "Integrasi sosial kuat",
+            "Keseragaman sosial"
+        ],
+        "answer": "Ketiadaan norma",
+        "hint": "Norma tidak berfungsi."
+    },
+    {
+        "id": "q6",
+        "question": "Akulturasi berbeda dengan asimilasi karena dalam akulturasi...",
+        "options": [
+            "Budaya lama hilang",
+            "Budaya baru dominan",
+            "Budaya lama tetap ada",
+            "Terjadi konflik budaya",
+            "Tidak ada perubahan"
+        ],
+        "answer": "Budaya lama tetap ada",
+        "hint": "Tidak menghilangkan budaya asli."
+    },
+    {
+        "id": "q7",
+        "question": "Menurut Talcott Parsons, fungsi adaptasi (A) dalam skema AGIL berkaitan dengan...",
+        "options": [
+            "Pengendalian sosial",
+            "Pencapaian tujuan",
+            "Penyesuaian dengan lingkungan",
+            "Pemeliharaan pola",
+            "Integrasi nilai"
+        ],
+        "answer": "Penyesuaian dengan lingkungan",
+        "hint": "Bagian dari AGIL."
+    },
+    {
+        "id": "q8",
+        "question": "Kelompok sosial yang anggotanya tidak saling mengenal secara mendalam disebut...",
+        "options": [
+            "Kelompok primer",
+            "Kelompok paguyuban",
+            "Kelompok sekunder",
+            "Kelompok referensi",
+            "Kelompok informal"
+        ],
+        "answer": "Kelompok sekunder",
+        "hint": "Hubungan impersonal."
+    },
+    {
+        "id": "q9",
+        "question": "Primordialisme dalam masyarakat majemuk berpotensi menimbulkan...",
+        "options": [
+            "Integrasi sosial",
+            "Solidaritas nasional",
+            "Konflik horizontal",
+            "Mobilitas sosial",
+            "Asimilasi budaya"
+        ],
+        "answer": "Konflik horizontal",
+        "hint": "Berdasarkan ikatan awal."
+    },
+    {
+        "id": "q10",
+        "question": "Kontrol sosial preventif bertujuan untuk...",
+        "options": [
+            "Menghukum pelanggar",
+            "Memberi sanksi tegas",
+            "Mencegah penyimpangan",
+            "Menekan masyarakat",
+            "Mengisolasi individu"
+        ],
+        "answer": "Mencegah penyimpangan",
+        "hint": "Dilakukan sebelum terjadi pelanggaran."
+    },
+    {
+        "id": "q11",
+        "question": "Nilai dasar Pancasila bersifat abstrak, sedangkan nilai instrumental bersifat...",
+        "options": [
+            "Universal",
+            "Tetap",
+            "Konkret dan operasional",
+            "Tidak berubah",
+            "Filosofis"
+        ],
+        "answer": "Konkret dan operasional",
+        "hint": "Dijabarkan dalam peraturan."
+    },
+    {
+        "id": "q12",
+        "question": "Menurut Koentjaraningrat, sistem mata pencaharian hidup termasuk unsur kebudayaan...",
+        "options": [
+            "Religi",
+            "Pengetahuan",
+            "Teknologi",
+            "Sistem ekonomi",
+            "Kesenian"
+        ],
+        "answer": "Sistem ekonomi",
+        "hint": "Unsur kebudayaan universal."
+    },
+    {
+        "id": "q13",
+        "question": "Modernisasi berbeda dengan westernisasi karena modernisasi...",
+        "options": [
+            "Selalu meniru Barat",
+            "Bersifat selektif",
+            "Menghilangkan budaya lokal",
+            "Bersifat konsumtif",
+            "Anti tradisi"
+        ],
+        "answer": "Bersifat selektif",
+        "hint": "Tidak harus Barat."
+    },
+    {
+        "id": "q14",
+        "question": "Kesadaran kolektif menurut Durkheim paling kuat ditemukan pada masyarakat...",
+        "options": [
+            "Modern",
+            "Industri",
+            "Organik",
+            "Mekanik",
+            "Urban"
+        ],
+        "answer": "Mekanik",
+        "hint": "Solidaritas mekanik."
+    },
+    {
+        "id": "q15",
+        "question": "Penyimpangan sosial yang masih dapat ditoleransi masyarakat disebut...",
+        "options": [
+            "Penyimpangan primer",
+            "Penyimpangan sekunder",
+            "Kejahatan",
+            "Delik hukum",
+            "Patologi sosial"
+        ],
+        "answer": "Penyimpangan primer",
+        "hint": "Tidak berulang."
+    },
+    {
+        "id": "q16",
+        "question": "Pasal 1 ayat (2) UUD 1945 menegaskan bahwa kedaulatan berada di tangan rakyat dan dilaksanakan menurut...",
+        "options": [
+            "Keputusan Presiden",
+            "Peraturan Pemerintah",
+            "UUD",
+            "TAP MPR",
+            "Undang-Undang"
+        ],
+        "answer": "UUD",
+        "hint": "Hasil amandemen."
+    },
+    {
+        "id": "q17",
+        "question": "Hak asasi manusia tidak dapat dikurangi dalam keadaan apa pun disebut hak...",
+        "options": [
+            "Derogable rights",
+            "Konstitusional",
+            "Non-derogable rights",
+            "Yuridis",
+            "Subjektif"
+        ],
+        "answer": "Non-derogable rights",
+        "hint": "Diatur Pasal 28I."
+    },
+    {
+        "id": "q18",
+        "question": "Menurut Pasal 22E UUD 1945, penyelenggara pemilu bersifat...",
+        "options": [
+            "Politik",
+            "Mandiri",
+            "Eksekutif",
+            "Yudikatif",
+            "Legislatif"
+        ],
+        "answer": "Mandiri",
+        "hint": "Menjamin netralitas."
+    },
+    {
+        "id": "q19",
+        "question": "Asas lex superior derogat legi inferiori berarti...",
+        "options": [
+            "Hukum khusus mengesampingkan umum",
+            "Hukum baru mengesampingkan lama",
+            "Hukum lebih tinggi mengesampingkan yang lebih rendah",
+            "Hukum tertulis mengalahkan tidak tertulis",
+            "Hukum nasional di atas hukum daerah"
+        ],
+        "answer": "Hukum lebih tinggi mengesampingkan yang lebih rendah",
+        "hint": "Asas hierarki hukum."
+    },
+    {
+        "id": "q20",
+        "question": "Kewenangan DPR menurut Pasal 20A UUD 1945 salah satunya adalah...",
+        "options": [
+            "Mengadili presiden",
+            "Membentuk undang-undang",
+            "Melantik menteri",
+            "Menjalankan pemerintahan",
+            "Menguji undang-undang"
+        ],
+        "answer": "Membentuk undang-undang",
+        "hint": "Fungsi legislasi."
+    },
+    {
+        "id": "q21",
+        "question": "Negara Indonesia menganut prinsip checks and balances yang berarti...",
+        "options": [
+            "Kekuasaan terpusat",
+            "Satu lembaga tertinggi",
+            "Pengawasan antar lembaga",
+            "Dominasi eksekutif",
+            "Kedaulatan presiden"
+        ],
+        "answer": "Pengawasan antar lembaga",
+        "hint": "Antarcabang kekuasaan."
+    },
+    {
+        "id": "q22",
+        "question": "Makna negara hukum menurut konsep rechtsstaat menekankan pada...",
+        "options": [
+            "Kekuasaan penguasa",
+            "Kepastian hukum dan HAM",
+            "Stabilitas politik",
+            "Kekuasaan mayoritas",
+            "Kekuatan militer"
+        ],
+        "answer": "Kepastian hukum dan HAM",
+        "hint": "Konsep Eropa Kontinental."
+    },
+    {
+        "id": "q23",
+        "question": "Menurut UU No. 12 Tahun 2011, hierarki peraturan perundang-undangan di bawah UUD adalah...",
+        "options": [
+            "Perpres",
+            "UU / Perppu",
+            "TAP MPR",
+            "PP",
+            "Perda Provinsi"
+        ],
+        "answer": "TAP MPR",
+        "hint": "Urutan hierarki."
+    },
+    {
+        "id": "q24",
+        "question": "Mahkamah Konstitusi berwenang memutus sengketa kewenangan antar lembaga negara yang kewenangannya diberikan oleh...",
+        "options": [
+            "Undang-Undang",
+            "Presiden",
+            "UUD 1945",
+            "TAP MPR",
+            "Peraturan Pemerintah"
+        ],
+        "answer": "UUD 1945",
+        "hint": "Pasal 24C."
+    },
+    {
+        "id": "q25",
+        "question": "Hak dan kewajiban warga negara diatur dalam UUD 1945 Bab...",
+        "options": [
+            "Bab II",
+            "Bab IV",
+            "Bab X",
+            "Bab XA",
+            "Bab XII"
+        ],
+        "answer": "Bab XA",
+        "hint": "Tentang HAM."
+    },
+    {
+        "id": "q26",
+        "question": "Konsep wawasan nusantara menempatkan Indonesia sebagai satu kesatuan...",
+        "options": [
+            "Politik saja",
+            "Ekonomi saja",
+            "Budaya saja",
+            "Wilayah dan bangsa",
+            "Pemerintahan daerah"
+        ],
+        "answer": "Wilayah dan bangsa",
+        "hint": "Geopolitik Indonesia."
+    },
+    {
+        "id": "q27",
+        "question": "Perwujudan sila keempat Pancasila dalam kehidupan bernegara tampak pada...",
+        "options": [
+            "Pemaksaan kehendak",
+            "Musyawarah perwakilan",
+            "Voting mutlak",
+            "Kekuasaan elit",
+            "Oposisi bebas"
+        ],
+        "answer": "Musyawarah perwakilan",
+        "hint": "Kerakyatan."
+    },
+    {
+        "id": "q28",
+        "question": "Menurut Pasal 33 ayat (3) UUD 1945, bumi dan air dikuasai oleh negara dan dipergunakan untuk...",
+        "options": [
+            "Kepentingan pemerintah",
+            "Investor asing",
+            "Kemakmuran rakyat",
+            "Keuntungan BUMN",
+            "Pendapatan daerah"
+        ],
+        "answer": "Kemakmuran rakyat",
+        "hint": "Prinsip keadilan sosial."
+    },
+    {
+        "id": "q29",
+        "question": "Salah satu ciri demokrasi konstitusional adalah...",
+        "options": [
+            "Kekuasaan tanpa batas",
+            "Pemerintahan berdasarkan hukum",
+            "Kedaulatan elit",
+            "Kekuatan militer",
+            "Kepemimpinan absolut"
+        ],
+        "answer": "Pemerintahan berdasarkan hukum",
+        "hint": "Rule of law."
+    },
+    {
+        "id": "q30",
+        "question": "Sikap rela berkorban untuk bangsa dan negara mencerminkan nilai...",
+        "options": [
+            "Liberalisme",
+            "Nasionalisme",
+            "Individualisme",
+            "Radikalisme",
+            "Sekularisme"
+        ],
+        "answer": "Nasionalisme",
+        "hint": "Cinta tanah air."
+    },
+    {
+        "id": "q31",
+        "question": "Tujuan negara Indonesia menurut Pembukaan UUD 1945 alinea keempat salah satunya adalah...",
+        "options": [
+            "Memperluas wilayah",
+            "Mencerdaskan kehidupan bangsa",
+            "Menguasai sumber daya dunia",
+            "Membentuk negara federal",
+            "Menjadi negara adidaya"
+        ],
+        "answer": "Mencerdaskan kehidupan bangsa",
+        "hint": "Tujuan nasional."
+    },
+    {
+        "id": "q32",
+        "question": "Sistem pertahanan dan keamanan rakyat semesta diatur dalam UUD 1945 Pasal...",
+        "options": [
+            "27 ayat (3)",
+            "29 ayat (2)",
+            "30 ayat (2)",
+            "31 ayat (1)",
+            "33 ayat (1)"
+        ],
+        "answer": "30 ayat (2)",
+        "hint": "Sishankamrata."
+    },
+    {
+        "id": "q33",
+        "question": "Asas kewarganegaraan Indonesia menganut prinsip...",
+        "options": [
+            "Ius soli",
+            "Ius sanguinis",
+            "Kewarganegaraan ganda permanen",
+            "Naturalisasi bebas",
+            "Kosmopolitan"
+        ],
+        "answer": "Ius sanguinis",
+        "hint": "Berdasarkan keturunan."
+    },
+    {
+        "id": "q34",
+        "question": "Menurut UU No. 39 Tahun 1999, pelanggaran HAM berat meliputi...",
+        "options": [
+            "Pencurian",
+            "Penganiayaan ringan",
+            "Genosida",
+            "Penipuan",
+            "Pelanggaran lalu lintas"
+        ],
+        "answer": "Genosida",
+        "hint": "HAM berat."
+    },
+    {
+        "id": "q35",
+        "question": "Bela negara bukan hanya tugas TNI, tetapi juga kewajiban...",
+        "options": [
+            "Aparat negara",
+            "Warga negara",
+            "Pejabat publik",
+            "Pegawai negeri",
+            "Penegak hukum"
+        ],
+        "answer": "Warga negara",
+        "hint": "Pasal 27 ayat (3)."
+    },
+    {
+        "id": "q36",
+        "question": "Peraturan Pemerintah Pengganti Undang-Undang (Perppu) ditetapkan oleh presiden dalam hal...",
+        "options": [
+            "Kondisi normal",
+            "Keadaan mendesak",
+            "Permintaan DPR",
+            "Putusan MK",
+            "Sidang MPR"
+        ],
+        "answer": "Keadaan mendesak",
+        "hint": "Kegentingan memaksa."
+    },
+    {
+        "id": "q37",
+        "question": "Bentuk pengamalan Pancasila secara objektif diwujudkan melalui...",
+        "options": [
+            "Sikap pribadi",
+            "Perilaku individu",
+            "Peraturan perundang-undangan",
+            "Kepribadian bangsa",
+            "Budaya lokal"
+        ],
+        "answer": "Peraturan perundang-undangan",
+        "hint": "Dalam kehidupan bernegara."
+    },
+    {
+        "id": "q38",
+        "question": "Kebebasan berserikat dan berkumpul dijamin dalam UUD 1945 Pasal...",
+        "options": [
+            "27 ayat (1)",
+            "28E ayat (3)",
+            "28I ayat (1)",
+            "29 ayat (2)",
+            "31 ayat (1)"
+        ],
+        "answer": "28E ayat (3)",
+        "hint": "Hak sipil."
+    },
+    {
+        "id": "q39",
+        "question": "Lembaga negara yang berfungsi mengusulkan pengangkatan hakim agung adalah...",
+        "options": [
+            "MA",
+            "MK",
+            "KY",
+            "DPR",
+            "BPK"
+        ],
+        "answer": "KY",
+        "hint": "Komisi Yudisial."
+    },
+    {
+        "id": "q40",
+        "question": "Ciri utama negara kesatuan adalah...",
+        "options": [
+            "Kekuasaan terbagi rata",
+            "Pemerintah pusat memegang kedaulatan",
+            "Negara bagian berdaulat",
+            "Otonomi absolut",
+            "Desentralisasi penuh"
+        ],
+        "answer": "Pemerintah pusat memegang kedaulatan",
+        "hint": "NKRI."
+    },
+    {
+        "id": "q41",
+        "question": "Partisipasi politik warga negara dapat diwujudkan dalam bentuk...",
+        "options": [
+            "Golput",
+            "Apatisme",
+            "Pemilu",
+            "Aksi anarkis",
+            "Provokasi"
+        ],
+        "answer": "Pemilu",
+        "hint": "Demokrasi."
+    },
+    {
+        "id": "q42",
+        "question": "Makna yuridis Pancasila sebagai sumber dari segala sumber hukum berarti...",
+        "options": [
+            "Pancasila di bawah UUD",
+            "Pancasila menjadi dasar pembentukan hukum",
+            "Pancasila hanya simbol",
+            "Pancasila bersifat opsional",
+            "Pancasila hanya ideologi"
+        ],
+        "answer": "Pancasila menjadi dasar pembentukan hukum",
+        "hint": "Norma dasar."
+    },
+    {
+        "id": "q43",
+        "question": "Salah satu prinsip HAM menurut Pancasila adalah...",
+        "options": [
+            "Hak tanpa kewajiban",
+            "Kebebasan mutlak",
+            "Keseimbangan hak dan kewajiban",
+            "Hak individu di atas negara",
+            "Hak mayoritas"
+        ],
+        "answer": "Keseimbangan hak dan kewajiban",
+        "hint": "Ciri khas Indonesia."
+    },
+    {
+        "id": "q44",
+        "question": "Menurut Pasal 6A UUD 1945, Presiden dan Wakil Presiden dipilih melalui...",
+        "options": [
+            "MPR",
+            "DPR",
+            "Pemilu langsung",
+            "Pemilu tidak langsung",
+            "Penunjukan presiden"
+        ],
+        "answer": "Pemilu langsung",
+        "hint": "Hasil amandemen."
+    },
+    {
+        "id": "q45",
+        "question": "Bhinneka Tunggal Ika mencerminkan prinsip...",
+        "options": [
+            "Homogenitas",
+            "Pluralitas dalam persatuan",
+            "Individualisme",
+            "Sentralisme",
+            "Primordialisme"
+        ],
+        "answer": "Pluralitas dalam persatuan",
+        "hint": "Keberagaman."
+    },
+    {
+        "id": "q46",
+        "question": "Hak mendapatkan jaminan sosial diatur dalam UUD 1945 Pasal...",
+        "options": [
+            "27 ayat (2)",
+            "28C ayat (1)",
+            "28H ayat (3)",
+            "31 ayat (1)",
+            "34 ayat (1)"
+        ],
+        "answer": "28H ayat (3)",
+        "hint": "Hak sosial."
+    },
+    {
+        "id": "q47",
+        "question": "Sikap menaati hukum karena takut sanksi mencerminkan kesadaran hukum tingkat...",
+        "options": [
+            "Internal",
+            "Otonom",
+            "Heteronom",
+            "Reflektif",
+            "Normatif"
+        ],
+        "answer": "Heteronom",
+        "hint": "Karena paksaan."
+    },
+    {
+        "id": "q48",
+        "question": "Penyelenggaraan pemerintahan daerah diatur dalam UUD 1945 Pasal...",
+        "options": [
+            "18",
+            "20",
+            "22",
+            "24",
+            "27"
+        ],
+        "answer": "18",
+        "hint": "Otonomi daerah."
+    },
+    {
+        "id": "q49",
+        "question": "Negara Indonesia berdasarkan Ketuhanan Yang Maha Esa berarti...",
+        "options": [
+            "Negara agama",
+            "Negara sekuler",
+            "Negara menjamin kebebasan beragama",
+            "Negara atheis",
+            "Negara teokrasi"
+        ],
+        "answer": "Negara menjamin kebebasan beragama",
+        "hint": "Pasal 29."
+    },
+    {
+        "id": "q50",
+        "question": "Hubungan Pancasila dengan Proklamasi Kemerdekaan adalah...",
+        "options": [
+            "Pancasila lahir setelah proklamasi tanpa kaitan",
+            "Proklamasi merupakan sumber Pancasila",
+            "Pancasila menjiwai proklamasi",
+            "Pancasila menggantikan proklamasi",
+            "Keduanya tidak berhubungan"
+        ],
+        "answer": "Pancasila menjiwai proklamasi",
+        "hint": "Landasan filosofis."
+    }
+]

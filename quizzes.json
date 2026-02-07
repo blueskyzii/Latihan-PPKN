@@ -1,6 +1,15 @@
 [
     {
         "id": "ppkn-nasional",
+        "title": "PPKN Hari-3",
+        "description": "Latihan PPKN Ilmu sosial dan Ilmu Kewarganegaraan.",
+        "file": "soal-ppkn-v3.json",
+        "icon": "🇮🇩",
+        "duration": 60,
+        "token": "DASAR"
+    },
+    {
+        "id": "ppkn-nasional",
         "title": "PPKN Tingkat Nasional",
         "description": "Peran generasi muda dalam membangun demokrasi dan kepedulian sosial di era modern.",
         "file": "soal-ppkn-v2.json",
