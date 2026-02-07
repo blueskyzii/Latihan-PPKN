@@ -1,47 +1,51 @@
 [
     {
         "id": "q1",
-        "question": "Apa peran utama generasi muda dalam memperkuat demokrasi berdasarkan Pasal 28E ayat (3) UUD 1945?",
+        "question": "Peran generasi muda dalam memperkuat demokrasi sesuai Pasal 28E ayat (3) UUD 1945 adalah?",
         "options": [
-            "Menjaga stabilitas ekonomi nasional",
-            "Berpartisipasi aktif dalam kehidupan politik dan demokrasi",
-            "Mengawasi kinerja lembaga yudikatif",
-            "Menjalankan kekuasaan eksekutif"
+            "Menjalankan kekuasaan eksekutif",
+            "Menguasai lembaga peradilan",
+            "Berpartisipasi aktif dalam kehidupan politik",
+            "Menjadi aparat negara",
+            "Menentukan kebijakan fiskal"
         ],
-        "answer": "Berpartisipasi aktif dalam kehidupan politik dan demokrasi",
-        "hint": "Pasal ini menegaskan hak berserikat, berkumpul, dan mengeluarkan pendapat."
+        "answer": "Berpartisipasi aktif dalam kehidupan politik",
+        "hint": "Hak berserikat, berkumpul, dan berpendapat."
     },
     {
         "id": "q2",
-        "question": "Sikap kritis generasi muda terhadap kebijakan publik merupakan wujud dari prinsip demokrasi yaitu?",
+        "question": "Sikap kritis generasi muda terhadap kebijakan publik merupakan implementasi prinsip demokrasi?",
         "options": [
-            "Supremasi hukum",
+            "Supremasi sipil",
             "Kedaulatan rakyat",
-            "Pembagian kekuasaan",
-            "Sentralisasi kekuasaan"
+            "Sentralisasi kekuasaan",
+            "Oligarki politik",
+            "Stabilitas kekuasaan"
         ],
         "answer": "Kedaulatan rakyat",
-        "hint": "Demokrasi menempatkan rakyat sebagai pemegang kekuasaan tertinggi."
+        "hint": "Rakyat pemegang kekuasaan tertinggi."
     },
     {
         "id": "q3",
-        "question": "Media sosial dapat dimanfaatkan generasi muda sebagai sarana demokrasi, kecuali untuk?",
+        "question": "Pemanfaatan media sosial dalam demokrasi oleh generasi muda harus menghindari?",
         "options": [
+            "Diskusi publik",
             "Edukasi politik",
             "Kontrol sosial",
             "Penyebaran hoaks",
-            "Partisipasi publik"
+            "Partisipasi digital"
         ],
         "answer": "Penyebaran hoaks",
-        "hint": "Demokrasi menuntut tanggung jawab dan etika."
+        "hint": "Informasi palsu merusak demokrasi."
     },
     {
         "id": "q4",
-        "question": "Landasan hukum partisipasi warga negara dalam pemerintahan terdapat dalam UUD 1945 Pasal?",
+        "question": "Landasan konstitusional kedaulatan rakyat di Indonesia tercantum dalam UUD 1945 Pasal?",
         "options": [
+            "Pasal 1 ayat (1)",
             "Pasal 1 ayat (2)",
+            "Pasal 2 ayat (1)",
             "Pasal 27 ayat (1)",
-            "Pasal 30 ayat (1)",
             "Pasal 33 ayat (3)"
         ],
         "answer": "Pasal 1 ayat (2)",
@@ -49,39 +53,42 @@
     },
     {
         "id": "q5",
-        "question": "Generasi muda yang menolak politik uang saat pemilu telah menerapkan nilai?",
+        "question": "Penolakan politik uang oleh generasi muda menunjukkan nilai?",
         "options": [
             "Pragmatisme",
+            "Materialisme",
             "Integritas",
-            "Otoritarianisme",
-            "Opportunisme"
+            "Opportunisme",
+            "Hedonisme"
         ],
         "answer": "Integritas",
-        "hint": "Berkaitan dengan kejujuran dan konsistensi moral."
+        "hint": "Konsistensi moral dan kejujuran."
     },
     {
         "id": "q6",
-        "question": "Dalam demokrasi Pancasila, kebebasan generasi muda harus disertai dengan?",
+        "question": "Dalam demokrasi Pancasila, kebebasan harus disertai dengan?",
         "options": [
-            "Kepentingan kelompok",
-            "Tanggung jawab sosial",
             "Kekuasaan mayoritas",
-            "Tekanan politik"
+            "Tanggung jawab sosial",
+            "Dominasi kelompok",
+            "Tekanan politik",
+            "Keuntungan pribadi"
         ],
         "answer": "Tanggung jawab sosial",
-        "hint": "Hak dan kewajiban harus berjalan seimbang."
+        "hint": "Hak dan kewajiban seimbang."
     },
     {
         "id": "q7",
-        "question": "Pasal 28D ayat (3) UUD 1945 menegaskan hak warga negara untuk?",
+        "question": "Pasal 28D ayat (3) UUD 1945 menjamin hak warga negara untuk?",
         "options": [
-            "Mendapatkan pendidikan",
-            "Kesempatan yang sama dalam pemerintahan",
             "Memeluk agama",
-            "Mendapat pekerjaan"
+            "Mendapat pendidikan",
+            "Kesempatan yang sama dalam pemerintahan",
+            "Mendapat pekerjaan",
+            "Menyampaikan kritik tanpa batas"
         ],
         "answer": "Kesempatan yang sama dalam pemerintahan",
-        "hint": "Berkaitan dengan persamaan hak politik."
+        "hint": "Persamaan hak politik."
     },
     {
         "id": "q8",
@@ -90,187 +97,203 @@
             "Pertama",
             "Kedua",
             "Ketiga",
+            "Keempat",
             "Kelima"
         ],
         "answer": "Kelima",
-        "hint": "Berhubungan dengan keadilan sosial."
+        "hint": "Keadilan sosial bagi seluruh rakyat."
     },
     {
         "id": "q9",
-        "question": "Mengkritisi kebijakan pemerintah secara konstruktif menunjukkan sikap?",
+        "question": "Menyampaikan kritik secara rasional dan santun menunjukkan sikap?",
         "options": [
-            "Apatis",
             "Anarkis",
+            "Apatis",
+            "Radikal",
             "Demokratis",
-            "Radikal"
+            "Otoriter"
         ],
         "answer": "Demokratis",
-        "hint": "Dilakukan dengan cara rasional dan bertanggung jawab."
+        "hint": "Berbasis etika dan logika."
     },
     {
         "id": "q10",
-        "question": "Generasi muda sebagai agen perubahan berarti?",
+        "question": "Makna generasi muda sebagai agen perubahan adalah?",
         "options": [
-            "Menolak seluruh kebijakan negara",
-            "Mendorong perubahan ke arah yang lebih baik",
-            "Mengikuti arus tanpa berpikir",
-            "Menguasai lembaga negara"
+            "Menolak seluruh sistem negara",
+            "Mengikuti arus mayoritas",
+            "Mendorong perubahan ke arah lebih baik",
+            "Menggantikan peran negara",
+            "Menguasai kekuasaan"
         ],
-        "answer": "Mendorong perubahan ke arah yang lebih baik",
-        "hint": "Perubahan harus berlandaskan nilai dan norma."
+        "answer": "Mendorong perubahan ke arah lebih baik",
+        "hint": "Perubahan konstruktif."
     },
     {
         "id": "q11",
-        "question": "Partisipasi generasi muda dalam pemilu merupakan implementasi dari asas?",
+        "question": "Keikutsertaan pemilu oleh generasi muda merupakan bentuk pelaksanaan asas?",
         "options": [
-            "Langsung",
             "Rahasia",
-            "Jujur dan adil",
-            "Kedaulatan rakyat"
+            "Langsung",
+            "Bebas",
+            "Kedaulatan rakyat",
+            "Jujur"
         ],
         "answer": "Kedaulatan rakyat",
-        "hint": "Rakyat menentukan arah kepemimpinan."
+        "hint": "Rakyat menentukan pemimpin."
     },
     {
         "id": "q12",
-        "question": "Sikap toleransi dalam keberagaman politik penting untuk menjaga?",
+        "question": "Sikap toleransi dalam perbedaan pandangan politik berfungsi menjaga?",
         "options": [
-            "Dominasi mayoritas",
-            "Stabilitas nasional",
             "Kepentingan elit",
-            "Otoritas pemerintah"
+            "Stabilitas nasional",
+            "Dominasi mayoritas",
+            "Sentralisasi kekuasaan",
+            "Kepentingan kelompok"
         ],
         "answer": "Stabilitas nasional",
-        "hint": "Demokrasi hidup dalam perbedaan."
+        "hint": "Demokrasi hidup dalam keberagaman."
     },
     {
         "id": "q13",
-        "question": "Generasi muda yang aktif dalam organisasi kemasyarakatan sedang menjalankan fungsi?",
+        "question": "Keaktifan generasi muda dalam organisasi masyarakat merupakan wujud fungsi?",
         "options": [
-            "Kontrol sosial",
-            "Rekreatif",
+            "Yudikatif",
             "Eksekutif",
-            "Yudikatif"
+            "Kontrol sosial",
+            "Legislatif",
+            "Administratif"
         ],
         "answer": "Kontrol sosial",
-        "hint": "Mengawasi dan menyalurkan aspirasi masyarakat."
+        "hint": "Pengawasan terhadap kekuasaan."
     },
     {
         "id": "q14",
-        "question": "Pasal 28C ayat (2) UUD 1945 berkaitan dengan hak untuk?",
+        "question": "Pasal 28C ayat (2) UUD 1945 menegaskan hak warga negara untuk?",
         "options": [
-            "Mengembangkan diri dan memperjuangkan hak secara kolektif",
             "Mendapat perlindungan hukum",
-            "Memilih dan dipilih",
-            "Beragama"
+            "Mengembangkan diri secara kolektif",
+            "Memeluk agama",
+            "Mendapat pekerjaan",
+            "Ikut pemilu"
         ],
-        "answer": "Mengembangkan diri dan memperjuangkan hak secara kolektif",
-        "hint": "Berkaitan dengan peran aktif warga negara."
+        "answer": "Mengembangkan diri secara kolektif",
+        "hint": "Perjuangan hak bersama."
     },
     {
         "id": "q15",
-        "question": "Hoaks politik berbahaya bagi demokrasi karena?",
+        "question": "Hoaks politik berbahaya karena dapat?",
         "options": [
-            "Meningkatkan partisipasi",
+            "Meningkatkan literasi",
+            "Mempercepat demokrasi",
             "Menyesatkan opini publik",
-            "Mendorong diskusi sehat",
-            "Mempercepat reformasi"
+            "Meningkatkan partisipasi",
+            "Memperluas diskusi sehat"
         ],
         "answer": "Menyesatkan opini publik",
-        "hint": "Informasi palsu merusak rasionalitas publik."
+        "hint": "Merusak rasionalitas publik."
     },
     {
         "id": "q16",
-        "question": "Kepedulian sosial generasi muda dapat diwujudkan melalui?",
+        "question": "Bentuk kepedulian sosial generasi muda yang tepat adalah?",
         "options": [
             "Eksklusivisme",
             "Relawan dan aksi sosial",
             "Individualisme ekstrem",
-            "Politik identitas sempit"
+            "Fanatisme politik",
+            "Apat terhadap lingkungan"
         ],
         "answer": "Relawan dan aksi sosial",
-        "hint": "Berorientasi pada kepentingan bersama."
+        "hint": "Berorientasi kepentingan bersama."
     },
     {
         "id": "q17",
-        "question": "Dalam negara hukum, kritik generasi muda harus disampaikan berdasarkan?",
+        "question": "Dalam negara hukum, kritik harus disampaikan berdasarkan?",
         "options": [
-            "Emosi",
+            "Emosi massa",
+            "Kepentingan pribadi",
+            "Tekanan politik",
             "Hukum dan etika",
-            "Tekanan massa",
-            "Kepentingan pribadi"
+            "Kekuasaan mayoritas"
         ],
         "answer": "Hukum dan etika",
-        "hint": "Negara hukum menjunjung aturan."
+        "hint": "Menjunjung rule of law."
     },
     {
         "id": "q18",
-        "question": "Pasal 27 ayat (1) UUD 1945 menegaskan prinsip?",
+        "question": "Pasal 27 ayat (1) UUD 1945 mengatur tentang?",
         "options": [
-            "Persamaan kedudukan di depan hukum",
-            "Kebebasan beragama",
             "Hak pendidikan",
-            "Pertahanan negara"
+            "Persamaan kedudukan di depan hukum",
+            "Hak beragama",
+            "Bela negara",
+            "Kesejahteraan sosial"
         ],
         "answer": "Persamaan kedudukan di depan hukum",
-        "hint": "Tidak ada diskriminasi hukum."
+        "hint": "Tanpa diskriminasi."
     },
     {
         "id": "q19",
         "question": "Demokrasi yang sehat membutuhkan generasi muda yang?",
         "options": [
+            "Fanatik",
             "Pasif",
             "Kritis dan beretika",
-            "Fanatik",
-            "Pragmatis"
+            "Pragmatis",
+            "Dogmatis"
         ],
         "answer": "Kritis dan beretika",
-        "hint": "Kritis tanpa melanggar norma."
+        "hint": "Rasional dan bermoral."
     },
     {
         "id": "q20",
-        "question": "Penggunaan hak pilih tanpa paksaan mencerminkan asas pemilu?",
+        "question": "Hak memilih tanpa tekanan mencerminkan asas pemilu?",
         "options": [
             "Umum",
+            "Langsung",
             "Bebas",
             "Rahasia",
             "Adil"
         ],
         "answer": "Bebas",
-        "hint": "Tidak ada tekanan dari pihak manapun."
+        "hint": "Tanpa paksaan."
     },
     {
         "id": "q21",
-        "question": "Generasi muda sebagai kontrol sosial berfungsi untuk?",
+        "question": "Peran generasi muda sebagai kontrol sosial bertujuan untuk?",
         "options": [
             "Menggantikan pemerintah",
             "Mengawasi jalannya kekuasaan",
-            "Membubarkan lembaga negara",
-            "Menentukan putusan hukum"
+            "Menentukan putusan hukum",
+            "Membentuk undang-undang",
+            "Mengelola anggaran"
         ],
         "answer": "Mengawasi jalannya kekuasaan",
-        "hint": "Bagian dari checks and balances."
+        "hint": "Checks and balances."
     },
     {
         "id": "q22",
-        "question": "Nilai demokrasi yang tercermin dalam musyawarah adalah?",
+        "question": "Nilai demokrasi dalam musyawarah adalah?",
         "options": [
             "Paksaan",
             "Dominasi",
             "Partisipasi",
-            "Diskriminasi"
+            "Diskriminasi",
+            "Monopoli suara"
         ],
         "answer": "Partisipasi",
-        "hint": "Setiap suara diperhitungkan."
+        "hint": "Semua pendapat didengar."
     },
     {
         "id": "q23",
-        "question": "Kepedulian terhadap isu HAM menunjukkan implementasi sila?",
+        "question": "Kepedulian terhadap HAM mencerminkan sila Pancasila ke?",
         "options": [
             "Pertama",
             "Kedua",
             "Ketiga",
-            "Keempat"
+            "Keempat",
+            "Kelima"
         ],
         "answer": "Kedua",
         "hint": "Kemanusiaan yang adil dan beradab."
@@ -281,116 +304,126 @@
         "options": [
             "Mudah dimanipulasi",
             "Menjadi apatis",
-            "Lebih sadar hak dan kewajiban",
-            "Menolak negara"
+            "Sadar hak dan kewajiban",
+            "Menolak negara",
+            "Mengabaikan aturan"
         ],
-        "answer": "Lebih sadar hak dan kewajiban",
-        "hint": "Pengetahuan hukum meningkatkan kesadaran."
+        "answer": "Sadar hak dan kewajiban",
+        "hint": "Kesadaran konstitusional."
     },
     {
         "id": "q25",
-        "question": "Partisipasi digital dalam demokrasi harus dibarengi dengan?",
+        "question": "Partisipasi demokrasi digital harus disertai dengan?",
         "options": [
-            "Literasi digital",
             "Sensor berlebihan",
+            "Propaganda",
+            "Literasi digital",
             "Pembatasan hak",
-            "Propaganda"
+            "Kontrol absolut"
         ],
         "answer": "Literasi digital",
-        "hint": "Agar tidak mudah terpengaruh informasi salah."
+        "hint": "Agar tidak mudah terprovokasi."
     },
     {
         "id": "q26",
-        "question": "Pasal 28F UUD 1945 berkaitan dengan hak?",
+        "question": "Pasal 28F UUD 1945 menjamin hak warga negara untuk?",
         "options": [
+            "Memperoleh pekerjaan",
             "Mencari dan menyampaikan informasi",
-            "Mendapat pekerjaan",
-            "Memeluk agama",
-            "Bela negara"
+            "Mendapat perlindungan sosial",
+            "Memilih dalam pemilu",
+            "Mendapat pendidikan gratis"
         ],
         "answer": "Mencari dan menyampaikan informasi",
-        "hint": "Relevan dengan era digital."
+        "hint": "Sangat relevan dengan kebebasan informasi di era digital."
     },
     {
         "id": "q27",
-        "question": "Sikap apatis generasi muda terhadap politik dapat berdampak pada?",
+        "question": "Sikap apatis generasi muda terhadap politik dapat menyebabkan?",
         "options": [
+            "Demokrasi semakin kuat",
+            "Partisipasi publik meningkat",
             "Kualitas demokrasi menurun",
-            "Stabilitas meningkat",
-            "Partisipasi naik",
-            "Hukum makin kuat"
+            "Kontrol kekuasaan bertambah",
+            "Kesadaran hukum meningkat"
         ],
         "answer": "Kualitas demokrasi menurun",
-        "hint": "Minim kontrol publik."
+        "hint": "Minim pengawasan masyarakat."
     },
     {
         "id": "q28",
-        "question": "Demokrasi modern menuntut generasi muda untuk berpikir?",
+        "question": "Demokrasi modern menuntut generasi muda berpikir?",
         "options": [
+            "Emosional",
             "Dogmatis",
             "Kritis dan rasional",
-            "Emosional",
-            "Subjektif"
+            "Subjektif",
+            "Fanatik"
         ],
         "answer": "Kritis dan rasional",
         "hint": "Berbasis data dan logika."
     },
     {
         "id": "q29",
-        "question": "Kepedulian terhadap kelompok minoritas merupakan bentuk?",
+        "question": "Kepedulian terhadap kelompok minoritas merupakan wujud nilai?",
         "options": [
             "Eksklusivisme",
-            "Inklusivitas",
             "Diskriminasi",
-            "Radikalisme"
+            "Inklusivitas",
+            "Radikalisme",
+            "Uniformitas"
         ],
         "answer": "Inklusivitas",
         "hint": "Menghargai keberagaman."
     },
     {
         "id": "q30",
-        "question": "Generasi muda yang taat hukum membantu mewujudkan?",
+        "question": "Generasi muda yang taat hukum berperan dalam mewujudkan?",
         "options": [
-            "Negara otoriter",
-            "Negara hukum",
             "Negara absolut",
-            "Negara feodal"
+            "Negara feodal",
+            "Negara hukum",
+            "Negara otoriter",
+            "Negara totaliter"
         ],
         "answer": "Negara hukum",
-        "hint": "Rule of law."
+        "hint": "Menjunjung rule of law."
     },
     {
         "id": "q31",
-        "question": "Partisipasi dalam diskusi publik mencerminkan peran generasi muda sebagai?",
+        "question": "Keikutsertaan generasi muda dalam diskusi publik menunjukkan peran sebagai?",
         "options": [
             "Objek politik",
+            "Penonton demokrasi",
             "Subjek demokrasi",
-            "Korban sistem",
-            "Penonton"
+            "Korban kebijakan",
+            "Aparat negara"
         ],
         "answer": "Subjek demokrasi",
-        "hint": "Aktif dan sadar peran."
+        "hint": "Aktif dan sadar hak."
     },
     {
         "id": "q32",
         "question": "Pasal 30 ayat (1) UUD 1945 mengatur tentang?",
         "options": [
-            "Pertahanan dan keamanan",
             "Hak pendidikan",
+            "Kebebasan pers",
+            "Pertahanan dan keamanan negara",
             "Kesejahteraan sosial",
-            "Kebebasan pers"
+            "Hak ekonomi"
         ],
-        "answer": "Pertahanan dan keamanan",
+        "answer": "Pertahanan dan keamanan negara",
         "hint": "Hak dan kewajiban bela negara."
     },
     {
         "id": "q33",
-        "question": "Bela negara bagi generasi muda di era modern dapat diwujudkan melalui?",
+        "question": "Bela negara di era modern bagi generasi muda dapat diwujudkan melalui?",
         "options": [
-            "Prestasi dan kontribusi positif",
             "Konflik bersenjata",
+            "Aksi anarkis",
+            "Prestasi dan kontribusi positif",
             "Penolakan hukum",
-            "Aksi anarkis"
+            "Radikalisme ideologi"
         ],
         "answer": "Prestasi dan kontribusi positif",
         "hint": "Tidak selalu bersifat militer."
@@ -399,178 +432,193 @@
         "id": "q34",
         "question": "Etika politik penting agar demokrasi tidak berubah menjadi?",
         "options": [
-            "Anarki",
+            "Keadilan sosial",
             "Kesejahteraan",
-            "Keadilan",
-            "Stabilitas"
+            "Stabilitas nasional",
+            "Anarki",
+            "Keteraturan hukum"
         ],
         "answer": "Anarki",
-        "hint": "Tanpa norma, kebebasan jadi liar."
+        "hint": "Tanpa etika, kebebasan menjadi liar."
     },
     {
         "id": "q35",
-        "question": "Generasi muda yang menghargai perbedaan pendapat sedang menerapkan prinsip?",
+        "question": "Sikap menghargai perbedaan pendapat mencerminkan prinsip?",
         "options": [
-            "Monolitik",
-            "Pluralisme",
             "Uniformitas",
-            "Sentralisme"
+            "Sentralisme",
+            "Pluralisme",
+            "Monolitik",
+            "Otoritarianisme"
         ],
         "answer": "Pluralisme",
         "hint": "Beragam namun tetap satu."
     },
     {
         "id": "q36",
-        "question": "Kepedulian terhadap masalah kemiskinan berkaitan dengan sila?",
+        "question": "Kepedulian terhadap masalah kemiskinan selaras dengan sila Pancasila ke?",
         "options": [
             "Pertama",
+            "Kedua",
             "Ketiga",
-            "Kelima",
-            "Kedua"
+            "Keempat",
+            "Kelima"
         ],
         "answer": "Kelima",
-        "hint": "Keadilan sosial."
+        "hint": "Keadilan sosial bagi seluruh rakyat."
     },
     {
         "id": "q37",
-        "question": "Demokrasi tanpa partisipasi generasi muda akan bersifat?",
+        "question": "Demokrasi tanpa partisipasi generasi muda cenderung bersifat?",
         "options": [
-            "Elitis",
             "Inklusif",
             "Partisipatif",
-            "Transparan"
+            "Elitis",
+            "Transparan",
+            "Egaliter"
         ],
         "answer": "Elitis",
-        "hint": "Dikuasai segelintir pihak."
+        "hint": "Didominasi kelompok tertentu."
     },
     {
         "id": "q38",
-        "question": "Pendidikan kewarganegaraan penting bagi generasi muda untuk?",
+        "question": "Pendidikan kewarganegaraan penting bagi generasi muda karena bertujuan?",
         "options": [
-            "Menghafal pasal",
-            "Meningkatkan kesadaran berbangsa dan bernegara",
-            "Menghindari politik",
-            "Mendukung satu partai"
+            "Menghafal undang-undang",
+            "Menjauhkan dari politik",
+            "Membentuk warga negara yang sadar hak dan kewajiban",
+            "Mendukung satu ideologi",
+            "Membatasi kebebasan berpikir"
         ],
-        "answer": "Meningkatkan kesadaran berbangsa dan bernegara",
-        "hint": "Membentuk warga negara yang baik."
+        "answer": "Membentuk warga negara yang sadar hak dan kewajiban",
+        "hint": "Kesadaran berbangsa dan bernegara."
     },
     {
         "id": "q39",
         "question": "Kepedulian terhadap korban bencana alam mencerminkan nilai?",
         "options": [
+            "Hedonisme",
             "Individualisme",
             "Solidaritas",
             "Materialisme",
-            "Hedonisme"
+            "Pragmatisme"
         ],
         "answer": "Solidaritas",
         "hint": "Rasa senasib sepenanggungan."
     },
     {
         "id": "q40",
-        "question": "Generasi muda harus menolak ujaran kebencian karena bertentangan dengan?",
+        "question": "Ujaran kebencian harus ditolak karena bertentangan dengan?",
         "options": [
             "Nilai demokrasi",
             "Efisiensi politik",
             "Kepentingan mayoritas",
-            "Kebebasan absolut"
+            "Kebebasan absolut",
+            "Dominasi kekuasaan"
         ],
         "answer": "Nilai demokrasi",
         "hint": "Demokrasi menjunjung martabat manusia."
     },
     {
         "id": "q41",
-        "question": "Pasal 28I ayat (2) UUD 1945 menegaskan larangan?",
+        "question": "Pasal 28I ayat (2) UUD 1945 menegaskan larangan terhadap?",
         "options": [
+            "Partisipasi politik",
+            "Kebebasan pers",
             "Diskriminasi",
             "Kritik pemerintah",
-            "Partisipasi politik",
-            "Kebebasan pers"
+            "Perbedaan pendapat"
         ],
         "answer": "Diskriminasi",
-        "hint": "Setiap orang berhak bebas dari perlakuan diskriminatif."
+        "hint": "Setiap orang berhak diperlakukan sama."
     },
     {
         "id": "q42",
-        "question": "Kepedulian generasi muda terhadap transparansi anggaran menunjukkan fungsi?",
+        "question": "Pengawasan generasi muda terhadap transparansi anggaran negara merupakan bentuk?",
         "options": [
-            "Legislatif",
+            "Fungsi yudikatif",
             "Kontrol sosial",
-            "Eksekutif",
-            "Yudikatif"
+            "Fungsi eksekutif",
+            "Fungsi administratif",
+            "Fungsi keamanan"
         ],
         "answer": "Kontrol sosial",
-        "hint": "Mengawasi penggunaan kekuasaan."
+        "hint": "Mengawasi jalannya pemerintahan."
     },
     {
         "id": "q43",
-        "question": "Demokrasi yang matang ditandai dengan?",
+        "question": "Demokrasi yang matang ditandai oleh?",
         "options": [
             "Minim kritik",
             "Partisipasi sadar dan bertanggung jawab",
             "Kekuasaan absolut",
-            "Pembatasan hak"
+            "Pembatasan hak warga",
+            "Dominasi mayoritas"
         ],
         "answer": "Partisipasi sadar dan bertanggung jawab",
-        "hint": "Bukan sekadar ikut-ikutan."
+        "hint": "Aktif namun beretika."
     },
     {
         "id": "q44",
-        "question": "Generasi muda harus menempatkan kepentingan nasional di atas?",
+        "question": "Generasi muda harus mengutamakan kepentingan nasional di atas?",
         "options": [
-            "Kepentingan pribadi dan golongan",
+            "Persatuan bangsa",
             "Nilai Pancasila",
             "Hukum negara",
-            "Persatuan"
+            "Kepentingan pribadi dan golongan",
+            "Kedaulatan rakyat"
         ],
         "answer": "Kepentingan pribadi dan golongan",
         "hint": "Menghindari konflik kepentingan."
     },
     {
         "id": "q45",
-        "question": "Kepedulian terhadap pendidikan merupakan investasi untuk?",
+        "question": "Kepedulian terhadap pendidikan berperan penting bagi?",
         "options": [
+            "Politik uang",
             "Demokrasi berkelanjutan",
-            "Kekuasaan elit",
             "Stagnasi sosial",
-            "Politik uang"
+            "Dominasi elit",
+            "Kepentingan sesaat"
         ],
         "answer": "Demokrasi berkelanjutan",
-        "hint": "Pendidikan membentuk warga kritis."
+        "hint": "Mencetak warga negara kritis."
     },
     {
         "id": "q46",
-        "question": "Generasi muda yang menolak kekerasan politik sedang menjaga?",
+        "question": "Penolakan terhadap kekerasan politik oleh generasi muda bertujuan menjaga?",
         "options": [
+            "Kepentingan elit",
             "Stabilitas demokrasi",
             "Dominasi mayoritas",
-            "Kepentingan elit",
-            "Kekuasaan absolut"
+            "Kekuasaan absolut",
+            "Sentralisasi negara"
         ],
         "answer": "Stabilitas demokrasi",
         "hint": "Demokrasi menolak kekerasan."
     },
     {
         "id": "q47",
-        "question": "Partisipasi dalam forum musyawarah desa mencerminkan demokrasi?",
+        "question": "Partisipasi langsung warga dalam musyawarah desa mencerminkan demokrasi?",
         "options": [
-            "Langsung",
             "Tidak langsung",
-            "Representatif penuh",
-            "Otoriter"
+            "Perwakilan penuh",
+            "Langsung",
+            "Otoriter",
+            "Terbatas"
         ],
         "answer": "Langsung",
         "hint": "Warga terlibat secara langsung."
     },
     {
         "id": "q48",
-        "question": "Kepedulian generasi muda terhadap hukum adat menunjukkan sikap?",
+        "question": "Kepedulian terhadap hukum adat menunjukkan sikap?",
         "options": [
-            "Modernistis sempit",
-            "Menghargai kearifan lokal",
             "Anti perubahan",
-            "Eksklusif"
+            "Eksklusif",
+            "Menghargai kearifan lokal",
+            "Modernisme sempit",
+            "Radikalisme budaya"
         ],
         "answer": "Menghargai kearifan lokal",
         "hint": "Selaras dengan Bhinneka Tunggal Ika."
@@ -579,22 +627,24 @@
         "id": "q49",
         "question": "Demokrasi Pancasila menekankan keseimbangan antara?",
         "options": [
+            "Negara dan pasar",
+            "Mayoritas dan minoritas",
             "Hak dan kewajiban",
             "Kebebasan dan kekuasaan",
-            "Mayoritas dan minoritas",
-            "Negara dan pasar"
+            "Politik dan ekonomi"
         ],
         "answer": "Hak dan kewajiban",
         "hint": "Tidak ada hak tanpa kewajiban."
     },
     {
         "id": "q50",
-        "question": "Peran strategis generasi muda menentukan masa depan demokrasi karena?",
+        "question": "Peran strategis generasi muda dalam demokrasi nasional karena mereka merupakan?",
         "options": [
-            "Jumlahnya paling sedikit",
+            "Kelompok netral",
             "Pemegang estafet kepemimpinan bangsa",
-            "Tidak terlibat politik",
-            "Hanya sebagai penonton"
+            "Pengamat politik",
+            "Kelompok pasif",
+            "Objek kebijakan"
         ],
         "answer": "Pemegang estafet kepemimpinan bangsa",
         "hint": "Generasi penerus bangsa."
