@@ -28,10 +28,10 @@
     },
     {
         "id": "contoh",
-        "title": "Under development",
-        "description": "Soal contoh",
+        "title": "Soal contoh",
+        "description": "Tidak usah dikerjakan!",
         "file": "questions_contoh.json",
-        "icon": "🌍",
+        "icon": "#",
         "duration": 1,
         "token": "INDONESIA"
     }
